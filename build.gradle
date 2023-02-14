@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+
+
+repositories {
+    maven {
+        name 'papermc'
+        url 'https://repo.papermc.io/repository/maven-public/'
+        content {
+            includeModule("io.papermc.paper", "paper-api")
+            includeModule("io.papermc", "paperlib")
+            includeModule("net.md-5", "bungeecord-chat")
+
+        }
+    }
+
+    mavenCentral()
+    maven { url 'https://repo.codemc.org/repository/maven-public/' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT'
+    implementation 'io.papermc:paperlib:1.0.8'
+    testImplementation 'io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    implementation "dev.jorel:commandapi-shade:8.7.0"
+    compileOnly "dev.jorel:commandapi-annotations:8.7.0"
+    annotationProcessor "dev.jorel:commandapi-annotations:8.7.0"
+}
+
+test {
+    useJUnitPlatform()
+}
+
+shadowJar {
+    dependencies {
+        include dependency("dev.jorel:commandapi-shade:8.7.0")
+    }
+
+    relocate("dev.jorel.commandapi", "org.example.commandapi")
+}

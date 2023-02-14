@@ -1,0 +1,9 @@
+main: org.example.Main
+name: MMQuest
+version: '1.0'
+description: A test plugin!
+load: POSTWORLD
+author: Zyreon
+api-version: 1.18
+
+commands:
