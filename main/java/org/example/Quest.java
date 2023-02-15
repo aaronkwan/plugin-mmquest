@@ -2,17 +2,13 @@ package org.example;
 import org.bukkit.entity.Player;
 import org.bukkit.scoreboard.Objective;
 import org.bukkit.scoreboard.Scoreboard;
-//import java.util.ArrayList;
 
 public class Quest {
     public String questName = "";
     public String questNumber = "";
     public String questDescription = "";
-    public Integer questCompleteScore = 0; //used if a quest has a normal completion score; >=.
-    public Integer questCompleteScore2 = -2; //used if a quest has two completion scores (Quest144); ==.
-
-    //public ArrayList<String> questReqs = new ArrayList<>();
-    //public ArrayList<String> questValues = new ArrayList<>();
+    public int questCompleteScore = 0; //used if a quest has a normal completion score; >=.
+    public int questCompleteScore2 = -2; //used if a quest has two completion scores (Quest02); ==.
     public String[] questReqs;
     public String[] questValues;
 
@@ -22,13 +18,7 @@ public class Quest {
         if (objective==null) {return false;}
 
         Integer playerScore = objective.getScore(player.getName()).getScore();
-        if (playerScore >= questCompleteScore || playerScore == questCompleteScore2) {
-            return true;
-        }
-        else {
-            return false;
-        }
-
+        return (playerScore >= questCompleteScore || playerScore == questCompleteScore2);
     }
 
     public int getPlayerScore(Player player) {
@@ -40,14 +30,14 @@ public class Quest {
     }
 
     //Constructor:
-    public Quest(String a, String b, String c,
-                 Integer d, Integer e, String[] f, String[] g) {
-        questName = a;
-        questNumber = b;
-        questDescription = c;
-        questCompleteScore = d;
-        questCompleteScore2 = e;
-        questReqs = f;
-        questValues = g;
+    public Quest(String questName, String questNumber, String questDescription,
+                 int questCompleteScore, int questCompleteScore2, String[] questReqs, String[] questValues) {
+        this.questName = questName;
+        this.questNumber = questNumber;
+        this.questDescription = questDescription;
+        this.questCompleteScore = questCompleteScore;
+        this.questCompleteScore2 = questCompleteScore2;
+        this.questReqs = questReqs;
+        this.questValues = questValues;
     }
 }

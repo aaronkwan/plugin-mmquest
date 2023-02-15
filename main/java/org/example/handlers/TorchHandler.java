@@ -19,12 +19,16 @@ import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.material.Torch;
 import org.bukkit.scoreboard.ScoreboardManager;
 import org.example.Main;
-
 import javax.swing.*;
 import java.awt.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+
+/*
+                    NOTE: THIS IS JUST A TEST FILE.
+
+ */
 
 public class TorchHandler implements Listener {
     public TorchHandler(Main plugin) {

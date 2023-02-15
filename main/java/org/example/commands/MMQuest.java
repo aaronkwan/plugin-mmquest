@@ -3,26 +3,24 @@ import dev.jorel.commandapi.CommandAPICommand;
 import dev.jorel.commandapi.CommandPermission;
 import dev.jorel.commandapi.arguments.*;
 import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.TextComponent;
 import net.kyori.adventure.text.event.ClickEvent;
 import net.kyori.adventure.text.format.TextColor;
 import net.kyori.adventure.text.format.TextDecoration;
 import org.bukkit.entity.Player;
 import org.example.Quest;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 public class MMQuest {
-    private static HashMap<String, Quest> stringQuestHashMap;  //declaring my hashmap, see below.
+    private static HashMap<String, Quest> stringQuestHashMap;  //declaring my hashmap, see function setupQuests().
     public static void register() {
 
         //turning hashmap keySet into a list to use in argument suggestion
         List<String> questSuggestions = new ArrayList<>(stringQuestHashMap.keySet());
 
-        //command arguments
+        //adding my arguments for <target> and <quest_name> (with the above suggestions)
         List<Argument<?>> arguments = new ArrayList<>();
         arguments.add(
                 new EntitySelectorArgument.OnePlayer("target")
@@ -34,8 +32,6 @@ public class MMQuest {
         // Create the command:
         new CommandAPICommand("mmquest")
                 .withArguments(
-                        //new EntitySelectorArgument.OnePlayer("target"),
-                        //new MultiLiteralArgument("r1", "r2", "r3", "all"),
                         arguments
                 )
                 .withAliases("mmq")       // Command aliases
@@ -43,45 +39,45 @@ public class MMQuest {
                 .executesPlayer((player, args) -> {
                     Player target = (Player) args[0];
                     String questArgument = (String) args[1];
-                    Quest quest = getQuestObj(questArgument);
+                    Quest quest = getQuestInstance(questArgument);
                     if (quest==null) {
                         player.sendMessage(Component.text("The alias for this quest does not exist!").color(TextColor.color(0xFF5555)));
                     }
                     else {
                         //Message Components:
-                        //Block 1: first spacer, <Quest Name> (<Quest Number>) for <Player>: <complete>
-                        //Block 2: Requirements: <required quests>
-                        //Block 3: <Quest Description>; Values:
-                        //Block 4: <Quest Values>. Score:
+                        //blockOne: first spacer, <Quest Name> (<Quest Number>) for <Player>:
+                        //blockOnep2: "Complete" if the quest is complete.
+                        //blockTwo: Requirements: <required quests>
+                        //blockThree: <Quest Description>; Values:
+                        //blockFour: <Quest Values>. Score: X
 
-                        //Block #1:
                         Component blockOne =
                                 Component.text("")
                                         .append(Component.text("------------------------------------------"))
                                         .append(Component.newline())
                                         .append(Component.text(quest.questName + " (" + quest.questNumber + ")" + " for " + target.getName() + ":"));
+
                         Component blockOnep2 =
                                 Component.text(" Complete").color(TextColor.color(0x00ff00));
-                        //Block #2:
+
                         Component blockTwo = getRequiredQuests(target, quest);
-                        //Block #3:
+
                         Component blockThree = Component.text("")
                                 .append(Component.newline())
                                 .append(Component.text(quest.questDescription))
                                 .append(Component.newline())
                                 .append(Component.text("Values: "))
                                 .append(Component.newline());
-                        //Block #4:
+
                         Component blockFour = getQuestValues(target, quest);
 
-                        //Combine Components:
+                        //Combine my Component blocks:
                         Component mmQuestOutput = Component.text("").color(TextColor.color(0xB2BEB5));;
                         mmQuestOutput = mmQuestOutput.append(blockOne);
-                        if (quest.checkQuestCompletion(player)) {mmQuestOutput=mmQuestOutput.append(blockOnep2);} //adds a <complete> if quest is complete.
+                        if (quest.checkQuestCompletion(player)) {mmQuestOutput=mmQuestOutput.append(blockOnep2);} //adds "Complete" if quest is complete.
                         mmQuestOutput = mmQuestOutput.append(blockTwo);
                         mmQuestOutput = mmQuestOutput.append(blockThree);
                         mmQuestOutput = mmQuestOutput.append(blockFour);
-
 
                         player.sendMessage(mmQuestOutput);
                     }})
@@ -91,7 +87,7 @@ public class MMQuest {
 
 
     public static void setupQuests() {
-        //creates & sets up all the Quest objects inside an arraylist:
+        //creates & sets up all the Quest instances inside an arraylist:
         ArrayList<Quest> questArrayList = new ArrayList<Quest>();
         questArrayList.add(new Quest("A Crown of Topaz", "Quest01", "Quest Start: Aimee (-761 106 22)",
                 6, 6, new String[] {}, new String[] {"Unstarted","Speaking to Aimee for the first time","Speaking to Aimee for the first time",
@@ -107,11 +103,11 @@ public class MMQuest {
         questArrayList.add(new Quest("Mages Legacy", "Quest03", "Quest Start: Vargos (-735 155 116)",
                 21, 21, new String[] {}, new String[] {"Unstarted","Speaking to Vargos","Speaking to Vargos","Speaking to Vargos","Speaking to Vargos",
                 "Speaking to Vargos","Speaking to Vargos","Speaking to Vargos","Speaking to Vargos","Tasked to find Ezariah's notes",
-        "Returned notes to Vargos","Tasked to go to the office on the roof","X","Tasked to find Hermy (-320, 92, 340)","Got gloop from witch’s village (-390, 95, 400) and gave them to Hermy",
-        "Received translated notes from Hermy","Quest Complete"}));
-        /*        Sample New Quest:
+        "Returned notes to Vargos","Tasked to go to the office on the roof","X","Tasked to find Hermy (-320, 92, 340)","Got gloop from witch's village (-390, 95, 400) and gave them to Hermy",
+        "Received translated notes from Hermy","X","X","X","X","X","Quest Complete"}));
+        /*        Template for adding new Quests:
         questArrayList.add(new Quest("Bandit Troubles", "Quest02", "Quest Start: Octavius (-673 108 71)",
-                       12, 8, new String[] {}, new String[] {"Unstarted"}));
+                       12, 8, new String[] {"A Required Quest"}, new String[] {"Unstarted","In Progress", "Finished"}));
         */
 
 
@@ -122,8 +118,8 @@ public class MMQuest {
             stringQuestHashMap.put(questString,quest);
         }
     }
-    public static Quest getQuestObj(String questArgument) {
-        //accepts a String; outputs the corresponding Quest obj/instance.
+    public static Quest getQuestInstance(String questArgument) {
+        //accepts a String; outputs the corresponding Quest instance.
         String questString = questArgument.replaceAll("\\s", ""); //remove whitespace
         return stringQuestHashMap.get(questString);
     }
@@ -140,7 +136,7 @@ public class MMQuest {
             // 2: use getQuestObj() to return our Quest instance.
             // 3: use checkQuestCompletion() on our Quest instance.
             String questString = quest.questReqs[i].replaceAll("\\s","");
-            Quest questInstance = getQuestObj(questString);
+            Quest questInstance = getQuestInstance(questString);
             boolean isQuestComplete = questInstance.checkQuestCompletion(player);
 
             if (isQuestComplete) {
@@ -158,7 +154,7 @@ public class MMQuest {
                 blockTwo = blockTwo.append(requiredQuest);
             }
         }
-
+            //If our quest's questReqs[] is empty, append a "None".
         if (quest.questReqs.length==0) {blockTwo = blockTwo.append(Component.text(" None"));}
         return blockTwo;
     }
