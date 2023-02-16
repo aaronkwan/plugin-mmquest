@@ -17,21 +17,26 @@ A simple back-end moderation tool for the server Monumenta utilizing Paper and C
 
 - **Usage**: /mmquest <Player> <QuestName>
 
-<p> /mmquest (or /mmq) allows you to view the progress of a Quest for a specific player. </p>
+<p> /mmquest (or /mmq) allows you to view or set the progress of a Quest for a specific player. </p>
 
-1. ![image](https://user-images.githubusercontent.com/123356351/218684147-86b6012d-6888-43e2-94a4-20d8ec2e4980.png)
+1. You can directly set the progress of a quest: ![image](https://user-images.githubusercontent.com/123356351/219274555-fb4de1d4-d57f-4b9d-a480-f9f485aa56e4.png)
 
-2. ![image](https://user-images.githubusercontent.com/123356351/218684290-053af5b6-286e-4f0b-a7e7-ce4ca975ed9f.png)
-3. You can hover and click on any Required Quests to also view their progress. ![image](https://user-images.githubusercontent.com/123356351/218684358-3f1de946-6329-4328-ad03-65e5b7df3571.png)
+1. Or, you can simply view the progress of a quest: ![image](https://user-images.githubusercontent.com/123356351/218684147-86b6012d-6888-43e2-94a4-20d8ec2e4980.png)
+2. ![image](https://user-images.githubusercontent.com/123356351/219274082-0e9a5c9e-ee89-4173-9342-de1fc684aa7c.png)
 
-4. Hovering over any [number] value lists a short description of that value: ![image](https://user-images.githubusercontent.com/123356351/218684613-4deab579-5eaf-43ef-a969-8ea89274f50b.png)
+3. You can hover and click on any Required Quests to also view their progress: ![image](https://user-images.githubusercontent.com/123356351/219274115-3124149b-10e5-4b5d-a49d-609b429d900b.png)
+
+4. Hovering over any [number] value lists a short description of that value: ![image](https://user-images.githubusercontent.com/123356351/219274156-5d0b2887-eaf5-48ac-b032-88a2545c99e4.png)
 
 5. Click the [number] value to set the player's score to that value.
-6. The number associated with their score is highlighted! ![image](https://user-images.githubusercontent.com/123356351/218684682-63792b26-a482-450b-ae51-32db40802f0f.png)
+6. The number associated with their score is highlighted: ![image](https://user-images.githubusercontent.com/123356351/219274250-7eca8618-319c-40b9-b944-d5586c5522b3.png)
 
-7. Up to two different quest completion values are supported. For example, "Bandit Troubles" has both a good and a bad ending, which both show a green **Complete** near the top: ![image](https://user-images.githubusercontent.com/123356351/218682643-ca8d53dd-4a4c-41ca-9b44-31d1305a5ed0.png)
+
+7. Several different quest completion values are supported. For example, "Bandit Troubles" has both a good and a bad ending, which both show a green **Complete** near the top: ![image](https://user-images.githubusercontent.com/123356351/218682643-ca8d53dd-4a4c-41ca-9b44-31d1305a5ed0.png)
 8. And: ![image](https://user-images.githubusercontent.com/123356351/218682716-714dda54-0645-47e9-b892-113266cbfd70.png)
-9. A incomplete quest has no **Complete** near the top, and shows red if it is a requirement for another quest: ![image](https://user-images.githubusercontent.com/123356351/218683203-be66bc2c-830c-4181-b12f-2cb7ddd34669.png)
-10. If there is no scoreboard objective, there will be a message: ![image](https://user-images.githubusercontent.com/123356351/218683469-b1cb0ea0-534e-42b0-bb53-20abeba91812.png)
+9. Values that are placeholder or have no usage are not shown: ![image](https://user-images.githubusercontent.com/123356351/219274363-395d8842-5793-4eee-a282-f16f83c6119d.png)
+
+10. If there is no scoreboard objective, there will be a message: ![image](https://user-images.githubusercontent.com/123356351/219274395-ef649d9a-01c4-4042-8637-d12548a9f644.png)
+
 11. Finally, if you didn't enter a valid Quest Name: ![image](https://user-images.githubusercontent.com/123356351/218683651-95b19c56-b6fe-49a9-af39-1eea64d7588d.png)
 
