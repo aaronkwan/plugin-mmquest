@@ -122,9 +122,13 @@ public class MMQuest {
                                 // VALUE ARGUMENT CODE:
                     // Check if "value" is not a number, then turn it into an int.
                     String valueArgument = (String) args[2];
-                    if (valueArgument.matches("\\D+")) {
+
+                    try {
+                        int valueArgumentInt = Integer.parseInt(valueArgument);
+                    } catch (NumberFormatException ex) {
                         throw CommandAPI.failWithString("Invalid value!");
                     }
+
                     int valueArgumentInt = Integer.parseInt(valueArgument);
 
                     // Set the player score to that value.
