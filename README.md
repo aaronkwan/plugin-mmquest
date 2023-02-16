@@ -38,5 +38,6 @@ A simple back-end moderation tool for the server Monumenta utilizing Paper and C
 
 10. If there is no scoreboard objective, there will be a message: ![image](https://user-images.githubusercontent.com/123356351/219274395-ef649d9a-01c4-4042-8637-d12548a9f644.png)
 
-11. Finally, if you didn't enter a valid Quest Name: ![image](https://user-images.githubusercontent.com/123356351/218683651-95b19c56-b6fe-49a9-af39-1eea64d7588d.png)
+11. Finally, support for errors: ![image](https://user-images.githubusercontent.com/123356351/218683651-95b19c56-b6fe-49a9-af39-1eea64d7588d.png) ![image](https://user-images.githubusercontent.com/123356351/219287855-3ed73618-716b-4280-b77c-df3cb2f925e0.png)
+
 
