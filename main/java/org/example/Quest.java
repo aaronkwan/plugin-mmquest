@@ -35,6 +35,7 @@ public class Quest {
         return objective.getScore(player.getName()).getScore();
     }
 
+
     //Constructor:
     public Quest(String questName, String questNumber, String questDescription,
                  Integer[] questCompleteScores, String[] questReqs, String[] questValues) {

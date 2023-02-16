@@ -7,6 +7,8 @@ import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.event.ClickEvent;
 import net.kyori.adventure.text.format.TextColor;
 import net.kyori.adventure.text.format.TextDecoration;
+import org.bukkit.Location;
+import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.scoreboard.Objective;
 import org.bukkit.scoreboard.Scoreboard;
@@ -65,7 +67,7 @@ public class MMQuest {
                         Component blockOnep2 =
                                 Component.text(" Complete").color(TextColor.color(0x00ff00));
 
-                    Component blockOnep3 =
+                        Component blockOnep3 =
                             Component.text(" Incomplete").color(TextColor.color(0xFF5555));
 
                         Component blockTwo = getRequiredQuests(target, quest);
@@ -89,6 +91,13 @@ public class MMQuest {
                         mmQuestOutput = mmQuestOutput.append(blockFour);
 
                         player.sendMessage(mmQuestOutput);
+
+                       //Play cool sound :)
+                        Location location = player.getLocation();
+                        Sound sound = Sound.ENTITY_EXPERIENCE_ORB_PICKUP;
+                        float volume = 1.0f;
+                        float pitch = 1.0f;
+                        player.playSound(location, sound, volume, pitch);
                     })
 
                 .register();
@@ -96,6 +105,7 @@ public class MMQuest {
         // Create Command #2: This is /mmquest <target> <quest_name> <value>.
         //              NOTE: This command sets the score of the target to that value, then brings up the progress view in chat.
 
+        // Adds my new <value> argument to the others:
         arguments.add(new StringArgument("value"));
 
         new CommandAPICommand("mmquest")
@@ -109,18 +119,18 @@ public class MMQuest {
                     if (quest==null) {
                         throw CommandAPI.failWithString("The alias for this quest does not exist!");
                     }
-
+                                // VALUE ARGUMENT CODE:
                     // Check if "value" is not a number, then turn it into an int.
                     String valueArgument = (String) args[2];
-                    if (valueArgument.matches("\\D")) {
-                        throw CommandAPI.failWithString("Invalid value!"); //Note: entering a non-digit argument does not send this message for some reason.
+                    if (valueArgument.matches("\\D+")) {
+                        throw CommandAPI.failWithString("Invalid value!");
                     }
                     int valueArgumentInt = Integer.parseInt(valueArgument);
 
                     // Set the player score to that value.
                     //  NOTE: this code is similar to our getPlayerScore() method of the Quest class.
                     Scoreboard scoreboard = target.getScoreboard();
-                    if (scoreboard==null) {throw CommandAPI.failWithString("Player is glitched!");} //Note: I have not been able to get this error.
+                    if (scoreboard==null) {throw CommandAPI.failWithString("Player is glitched!");}
                     Objective objective = scoreboard.getObjective(quest.questNumber);
                     if (objective==null) {throw CommandAPI.failWithString("Scoreboard objective does not exist!");}
                     objective.getScore(target.getName()).setScore(valueArgumentInt);
@@ -159,6 +169,13 @@ public class MMQuest {
                     mmQuestOutput = mmQuestOutput.append(blockFour);
 
                     player.sendMessage(mmQuestOutput);
+
+                    //Play cool sound :)
+                    Location location = player.getLocation();
+                    Sound sound = Sound.ENTITY_EXPERIENCE_ORB_PICKUP;
+                    float volume = 1.0f;
+                    float pitch = 1.0f;
+                    player.playSound(location, sound, volume, pitch);
                 })
 
                 .register();
@@ -169,21 +186,21 @@ public class MMQuest {
         //creates & sets up all the Quest instances inside an arraylist:
         ArrayList<Quest> questArrayList = new ArrayList<Quest>();
         questArrayList.add(new Quest("A Crown of Topaz", "Quest01", "Quest Start: Aimee (-761 106 22)",
-                new Integer[]{6,7,8,9,10,11,12,13}, new String[] {}, new String[] {"Unstarted","Speaking to Aimee for the first time","Speaking to Aimee for the first time",
-                "Speaking to Aimee for the first time","Speaking to Aimee for the first time","Returned the Topaz / Speak to Aimee","Quest Complete"}));
+                new Integer[]{6,7,8,9,10,11,12,13}, new String[] {}, new String[] {"0 Unstarted","1 Speaking to Aimee for the first time","2 Speaking to Aimee for the first time",
+                "3 Speaking to Aimee for the first time","4 Speaking to Aimee for the first time","5 Returned the Topaz / Speak to Aimee","6 Quest Complete"}));
         questArrayList.add(new Quest("A Crown of Majesty", "Quest01", "Quest Start: Aimee (-761 106 22)",
-                new Integer[]{13}, new String[] {"A Crown of Topaz"}, new String[] {"X","X","X","X","X","X","Unstarted","Speaking to Aimee to receive quest","Speaking to Aimee to receive quest",
-                "Speaking to Aimee to receive quest","Speaking to Aimee to receive quest","Speaking to Aimee to receive quest",
-                "Returned jewels / speak to Aimee","Quest Complete"}));
+                new Integer[]{13}, new String[] {"A Crown of Topaz"}, new String[] {"6 Unstarted","7 Speaking to Aimee to receive quest","8 Speaking to Aimee to receive quest",
+                "9 Speaking to Aimee to receive quest","10 Speaking to Aimee to receive quest","11 Speaking to Aimee to receive quest",
+                "12 Returned jewels / speak to Aimee","13 Quest Complete"}));
         questArrayList.add(new Quest("Bandit Troubles", "Quest02", "Quest Start: Octavius (-673 108 71)",
-                new Integer[]{8,12}, new String[] {}, new String[] {"Unstarted","Speaking to Octavius to receive quest","Speaking to Octavius to receive quest","Speaking to Octavius to receive quest",
-        "Speaking to Octavius to receive quest","Returned caravan loot to Octavius","X","X","Quest Complete (Bad Path)","Chose to report to Murano","Speaking to Murano",
-        "Speaking to Murano","Quest Complete (Good Path)"}));
+                new Integer[]{8,12}, new String[] {}, new String[] {"0 Unstarted","1 Speaking to Octavius to receive quest","2 Speaking to Octavius to receive quest","3 Speaking to Octavius to receive quest",
+        "4 Speaking to Octavius to receive quest","5 Returned caravan loot to Octavius","8 Quest Complete (Bad Path)","9 Chose to report to Murano","10 Speaking to Murano",
+        "11 Speaking to Murano","12 Quest Complete (Good Path)"}));
         questArrayList.add(new Quest("Mages Legacy", "Quest03", "Quest Start: Vargos (-735 155 116)",
-                new Integer[]{21}, new String[] {}, new String[] {"Unstarted","Speaking to Vargos","Speaking to Vargos","Speaking to Vargos","Speaking to Vargos",
-                "Speaking to Vargos","Speaking to Vargos","Speaking to Vargos","Speaking to Vargos","Tasked to find Ezariah's notes",
-        "Returned notes to Vargos","Tasked to go to the office on the roof","X","Tasked to find Hermy (-320, 92, 340)","Got gloop from witch's village (-390, 95, 400) and gave them to Hermy",
-        "Received translated notes from Hermy","X","X","X","X","X","Quest Complete"}));
+                new Integer[]{21}, new String[] {}, new String[] {"0 Unstarted","1 Speaking to Vargos","2 Speaking to Vargos","3 Speaking to Vargos","4 Speaking to Vargos",
+                "5 Speaking to Vargos","6 Speaking to Vargos","7 Speaking to Vargos","8 Speaking to Vargos","9 Tasked to find Ezariah's notes",
+        "10 Returned notes to Vargos","11 Tasked to go to the office on the roof","13 Tasked to find Hermy (-320, 92, 340)","14 Got gloop from witch's village (-390, 95, 400) and gave them to Hermy",
+        "15 Received translated notes from Hermy","21 Quest Complete"}));
         /*        Template for adding new Quests:
         questArrayList.add(new Quest("Bandit Troubles", "Quest02", "Quest Start: Octavius (-673 108 71)",
                        new Integer[]{8,12}, new String[] {"A Required Quest"}, new String[] {"Unstarted","In Progress", "Finished"}));
@@ -216,6 +233,15 @@ public class MMQuest {
             // 3: use checkQuestCompletion() on our Quest instance.
             String questString = quest.questReqs[i].replaceAll("\\s","");
             Quest questInstance = getQuestInstance(questString);
+            if (questInstance==null) {
+                // If the requirement is not actually a valid quest (such as "Completion of White Wool Dungeon"),
+                //  simply list the requirement, then continue the loop.
+                Component requiredQuest = Component.text("  " + quest.questReqs[i])
+                        .hoverEvent(Component.text("Check manually!"))
+                        .color(TextColor.color(0xFFFFFF));
+                blockTwo = blockTwo.append(requiredQuest);
+                continue;
+            }
             boolean isQuestComplete = questInstance.checkQuestCompletion(player);
             // If the quest is complete, show its name with color green. Else, color red.
             if (isQuestComplete) {
@@ -243,15 +269,23 @@ public class MMQuest {
 
         for (int i = 0; i < quest.questValues.length; i++) {
 
-            //if that value is a placeholder (aka is "X"), skip it:
-            if (quest.questValues[i]=="X") {continue;}
-            //otherwise, place the value in brackets with hoverevent its description:
-            Component questValue = Component.text(" [" + i + "] ")
-                    .hoverEvent(Component.text(quest.questValues[i]))
+            // Workflow:
+            // 1. Take string of the format "X Hello this is a sentence", where X is a number;
+            // 2. Separate it into "X" and "Hello this is a sentence";
+            // 3. Turn "X" into an integer X (this is a questScore value);
+            // 4. "Hello this is a sentence" (this is the description associated with that value);
+
+            String[] questScoreAndScoreDescription = quest.questValues[i].split("\\s",2);
+            int questScore = Integer.parseInt(questScoreAndScoreDescription[0]);
+            String questScoreDescription = questScoreAndScoreDescription[1];
+
+            // questValue: Places each score in brackets with its description as a hoverevent:
+            Component questValue = Component.text(" [" + questScore + "] ")
+                    .hoverEvent(Component.text(questScoreDescription))
                     //clickEvent: /mmquest <target> <quest_name (remove whitespace)> <value>.
-                    .clickEvent(ClickEvent.runCommand("/mmquest "+player.getName()+" "+quest.questName.replaceAll("\\s", "")+" "+i))
-                    .decoration(TextDecoration.BOLD, quest.getPlayerScore(player) == i)
-                    .decoration(TextDecoration.UNDERLINED, quest.getPlayerScore(player) == i);
+                    .clickEvent(ClickEvent.runCommand("/mmquest "+player.getName()+" "+quest.questName.replaceAll("\\s", "")+" "+questScore))
+                    .decoration(TextDecoration.BOLD, quest.getPlayerScore(player) == questScore)
+                    .decoration(TextDecoration.UNDERLINED, quest.getPlayerScore(player) == questScore);
             blockFour = blockFour.append(questValue);
         }
 
