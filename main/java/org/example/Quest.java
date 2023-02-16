@@ -7,8 +7,7 @@ public class Quest {
     public String questName = "";
     public String questNumber = "";
     public String questDescription = "";
-    public int questCompleteScore = 0; //used if a quest has a normal completion score; >=.
-    public int questCompleteScore2 = -2; //used if a quest has two completion scores (Quest02); ==.
+    public Integer[] questCompleteScores;
     public String[] questReqs;
     public String[] questValues;
 
@@ -18,7 +17,14 @@ public class Quest {
         if (objective==null) {return false;}
 
         Integer playerScore = objective.getScore(player.getName()).getScore();
-        return (playerScore >= questCompleteScore || playerScore == questCompleteScore2);
+        boolean matchesAny = false;
+        for (Integer score : questCompleteScores) {
+            if (score==playerScore) {
+                matchesAny = true;
+                break;
+            }
+        }
+        return (matchesAny);
     }
 
     public int getPlayerScore(Player player) {
@@ -31,12 +37,11 @@ public class Quest {
 
     //Constructor:
     public Quest(String questName, String questNumber, String questDescription,
-                 int questCompleteScore, int questCompleteScore2, String[] questReqs, String[] questValues) {
+                 Integer[] questCompleteScores, String[] questReqs, String[] questValues) {
         this.questName = questName;
         this.questNumber = questNumber;
         this.questDescription = questDescription;
-        this.questCompleteScore = questCompleteScore;
-        this.questCompleteScore2 = questCompleteScore2;
+        this.questCompleteScores = questCompleteScores;
         this.questReqs = questReqs;
         this.questValues = questValues;
     }
