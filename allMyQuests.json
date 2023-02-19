@@ -1,0 +1,43 @@
+[
+    {
+    "questName": "A Crown of Topaz",
+    "questNumber": "Quest01",
+    "questDescription": "Quest Start: Aimee (-761 106 22)",
+    "questCompleteScores": [6,7,8,9,10,11,12,13],
+    "questReqs": [],
+    "questValues": ["0 Unstarted","1 Speaking to Aimee for the first time","2 Speaking to Aimee for the first time",
+                "3 Speaking to Aimee for the first time","4 Speaking to Aimee for the first time","5 Returned the Topaz / Speak to Aimee","6 Quest Complete"]
+},
+{
+    "questName": "A Crown of Majesty",
+    "questNumber": "Quest01",
+    "questDescription": "Quest Start: Aimee (-761 106 22)",
+    "questCompleteScores": [13],
+    "questReqs": ["A Crown of Topaz"],
+    "questValues": ["6 Unstarted","7 Speaking to Aimee to receive quest","8 Speaking to Aimee to receive quest",
+                "9 Speaking to Aimee to receive quest","10 Speaking to Aimee to receive quest","11 Speaking to Aimee to receive quest",
+                "12 Returned jewels / speak to Aimee","13 Quest Complete"]
+},
+{
+    "questName": "Bandit Troubles",
+    "questNumber": "Quest02",
+    "questDescription": "Quest Start: Octavius (-673 108 71)",
+    "questCompleteScores": [8,12],
+    "questReqs": [],
+    "questValues": ["0 Unstarted","1 Speaking to Octavius to receive quest","2 Speaking to Octavius to receive quest","3 Speaking to Octavius to receive quest",
+        "4 Speaking to Octavius to receive quest","5 Returned caravan loot to Octavius","8 Quest Complete (Bad Path)","9 Chose to report to Murano","10 Speaking to Murano",
+        "11 Speaking to Murano","12 Quest Complete (Good Path)"]
+},
+{
+    "questName": "Mages Legacy",
+    "questNumber": "Quest03",
+    "questDescription": "Quest Start: Vargos (-735 155 116)",
+    "questCompleteScores": [21],
+    "questReqs": [],
+    "questValues": ["0 Unstarted","1 Speaking to Vargos","2 Speaking to Vargos","3 Speaking to Vargos","4 Speaking to Vargos",
+                "5 Speaking to Vargos","6 Speaking to Vargos","7 Speaking to Vargos","8 Speaking to Vargos","9 Tasked to find Ezariah's notes",
+        "10 Returned notes to Vargos","11 Tasked to go to the office on the roof","13 Tasked to find Hermy (-320, 92, 340)","14 Got gloop from witch's village (-390, 95, 400) and gave them to Hermy",
+        "15 Received translated notes from Hermy","21 Quest Complete"]
+}
+
+]
