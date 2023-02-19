@@ -1,4 +1,5 @@
 package org.example.commands;
+import com.google.gson.Gson;
 import dev.jorel.commandapi.CommandAPI;
 import dev.jorel.commandapi.CommandAPICommand;
 import dev.jorel.commandapi.CommandPermission;
@@ -12,8 +13,11 @@ import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.scoreboard.Objective;
 import org.bukkit.scoreboard.Scoreboard;
+import org.example.AllMyQuests;
+import org.example.Main;
 import org.example.Quest;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -183,41 +187,38 @@ public class MMQuest {
                 })
 
                 .register();
+
+        new CommandAPICommand("mmquestupdatefromwiki")
+                .withPermission(CommandPermission.OP)
+                .executesPlayer((player, args) -> {
+                    player.sendMessage("MMQuest: Updating JSON file from wiki...");
+                    try {
+                        player.sendMessage(AllMyQuests.writeToJSON());
+                    } catch (IOException e) {throw CommandAPI.failWithString("Could not update file!");}
+                    player.sendMessage("MMQuest: JSON file updated. Reload plugin to update command!");
+                })
+
+                .register();
     }
 
 
-    public static void setupQuests() {
-        //creates & sets up all the Quest instances inside an arraylist:
-        ArrayList<Quest> questArrayList = new ArrayList<Quest>();
-        questArrayList.add(new Quest("A Crown of Topaz", "Quest01", "Quest Start: Aimee (-761 106 22)",
-                new Integer[]{6,7,8,9,10,11,12,13}, new String[] {}, new String[] {"0 Unstarted","1 Speaking to Aimee for the first time","2 Speaking to Aimee for the first time",
-                "3 Speaking to Aimee for the first time","4 Speaking to Aimee for the first time","5 Returned the Topaz / Speak to Aimee","6 Quest Complete"}));
-        questArrayList.add(new Quest("A Crown of Majesty", "Quest01", "Quest Start: Aimee (-761 106 22)",
-                new Integer[]{13}, new String[] {"A Crown of Topaz"}, new String[] {"6 Unstarted","7 Speaking to Aimee to receive quest","8 Speaking to Aimee to receive quest",
-                "9 Speaking to Aimee to receive quest","10 Speaking to Aimee to receive quest","11 Speaking to Aimee to receive quest",
-                "12 Returned jewels / speak to Aimee","13 Quest Complete"}));
-        questArrayList.add(new Quest("Bandit Troubles", "Quest02", "Quest Start: Octavius (-673 108 71)",
-                new Integer[]{8,12}, new String[] {}, new String[] {"0 Unstarted","1 Speaking to Octavius to receive quest","2 Speaking to Octavius to receive quest","3 Speaking to Octavius to receive quest",
-        "4 Speaking to Octavius to receive quest","5 Returned caravan loot to Octavius","8 Quest Complete (Bad Path)","9 Chose to report to Murano","10 Speaking to Murano",
-        "11 Speaking to Murano","12 Quest Complete (Good Path)"}));
-        questArrayList.add(new Quest("Mages Legacy", "Quest03", "Quest Start: Vargos (-735 155 116)",
-                new Integer[]{21}, new String[] {}, new String[] {"0 Unstarted","1 Speaking to Vargos","2 Speaking to Vargos","3 Speaking to Vargos","4 Speaking to Vargos",
-                "5 Speaking to Vargos","6 Speaking to Vargos","7 Speaking to Vargos","8 Speaking to Vargos","9 Tasked to find Ezariah's notes",
-        "10 Returned notes to Vargos","11 Tasked to go to the office on the roof","13 Tasked to find Hermy (-320, 92, 340)","14 Got gloop from witch's village (-390, 95, 400) and gave them to Hermy",
-        "15 Received translated notes from Hermy","21 Quest Complete"}));
-        /*        Template for adding new Quests:
-        questArrayList.add(new Quest("Bandit Troubles", "Quest02", "Quest Start: Octavius (-673 108 71)",
-                       new Integer[]{8,12}, new String[] {"A Required Quest"}, new String[] {"Unstarted","In Progress", "Finished"}));
-        */
+    public static void setupQuests() throws IOException {
+        // Grabs file path for JSON file, parses it, places the results in AllMyQuests:
+        Gson gson = new Gson();
+        File file = new File(Main.getINSTANCE().getDataFolder().getAbsolutePath() + "/allMyQuests.json" );
+        AllMyQuests allMyQuests = gson.fromJson(new FileReader(file),AllMyQuests.class);
 
+        // NOTE: The AllMyQuests class is used to store the JSON file's Quest objects in an arraylist.
 
-        //sets up Hashmap which pairs String (questName) with its corresponding Quest instance:
+        // Sets up Hashmap which pairs String (questName) with its corresponding Quest instance:
         stringQuestHashMap = new HashMap<String, Quest>();
-        for (Quest quest : questArrayList) {
+        for (Quest quest : allMyQuests.questArrayList) {
             String questString = quest.questName.replaceAll("\\s", "");
             stringQuestHashMap.put(questString,quest);
         }
     }
+
+
     public static Quest getQuestInstance(String questArgument) {
         //accepts a String; outputs the corresponding Quest instance.
         String questString = questArgument.replaceAll("\\s", ""); //remove whitespace
