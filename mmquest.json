@@ -1,0 +1,1651 @@
+{
+  "questArrayList": [
+    {
+      "questName": "Tutorial",
+      "questNumber": "Tutorial",
+      "questDescription": "",
+      "questCompleteScores": [],
+      "questReqs": [
+        "Score Step 10 Spoke to Nurse Deidre 11 Walked across the Welcome broadcast",
+        "head outside 12",
+        "13",
+        "14",
+        "15 Head to Murano 16 Spoke to Muradi",
+        "see Reginald downstairs and run Labs 17 Finished Labs",
+        "return to Sierhaven 18 Returned to lobby",
+        "see Reginald 19 Spoke to Reginald",
+        "see Sybil 20 Spoke to Sybil to end Tutorial"
+      ],
+      "questValues": {}
+    },
+    {
+      "questName": "A Crown of Topaz",
+      "questNumber": "Quest01",
+      "questDescription": "Quest Start: Aimee (-761 106 22)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Aimee for the first time",
+        "2": "Speaking to Aimee for the first time",
+        "3": "Speaking to Aimee for the first time",
+        "4": "Speaking to Aimee for the first time",
+        "5": "Returned the Topaz / Speak to Aimee",
+        "6": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Crown of Majesty",
+      "questNumber": "Quest01",
+      "questDescription": "Quest Start: Aimee (-761 106 22)",
+      "questCompleteScores": [
+        13
+      ],
+      "questReqs": [
+        "A Crown of Topaz"
+      ],
+      "questValues": {
+        "6": "Unstarted",
+        "7": "Speaking to Aimee to receive quest",
+        "8": "Speaking to Aimee to receive quest",
+        "9": "Speaking to Aimee to receive quest",
+        "10": "Speaking to Aimee to receive quest",
+        "11": "Speaking to Aimee to receive quest",
+        "12": "Returned jewels / speak to Aimee",
+        "13": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Bandit Troubles",
+      "questNumber": "Quest02",
+      "questDescription": "Quest Start: Octavius (-673 108 71)",
+      "questCompleteScores": [
+        8,
+        12
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Octavius to receive quest",
+        "2": "Speaking to Octavius to receive quest",
+        "3": "Speaking to Octavius to receive quest",
+        "4": "Speaking to Octavius to receive quest",
+        "5": "Returned caravan loot ot Octavius",
+        "8": "Quest Complete (Bad Path)",
+        "9": "Chose to report to Murano",
+        "10": "Speaking to Murano",
+        "11": "Speaking to Murano",
+        "12": "Quest Complete (Good Path)"
+      }
+    },
+    {
+      "questName": "Mages Legacy",
+      "questNumber": "Quest03",
+      "questDescription": "Quest Start: Vargos (-735 155 116)",
+      "questCompleteScores": [
+        21
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Vargos",
+        "2": "Speaking to Vargos",
+        "3": "Speaking to Vargos",
+        "4": "Speaking to Vargos",
+        "5": "Speaking to Vargos",
+        "6": "Speaking to Vargos",
+        "7": "Speaking to Vargos",
+        "8": "Speaking to Vargos",
+        "9": "Tasked to find Ezariah\u0027s notes",
+        "10": "Returned notes to Vargos",
+        "11": "Tasked to go to the office on the roof",
+        "-4: -4 (Yes, negative. Don’t ask)": "Puzzle done, but dc’d before commands finished. Return to Vargos to get to 13 or redo puzzle to get to -5",
+        "-5: -5 (Yes, negative. Don\u0027t ask)": "Completed puzzle on roof / Return to Vargos",
+        "13": "Tasked to find Hermy (-320, 92, 340)",
+        "14": "Got gloop from witch’s village (-390, 95, 400) and gave them to Hermy",
+        "15": "Received translated notes from Hermy",
+        "21": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Staff",
+      "questNumber": "Quest04",
+      "questDescription": "Quest Start: Chest (180 95 -79)",
+      "questCompleteScores": [
+        1
+      ],
+      "questReqs": [
+        "Mages Legacy",
+        "Decryption Puzzle completed",
+        "a Carved Staff in inventory can be found in starting chest"
+      ],
+      "questValues": {
+        "0": "Unstarted; decryption puzzle not completed",
+        "1": "Decryption puzzle completed; quest may now be started",
+        "2": "Quest started; Take a Carved Staff to the Water Shrine or Amplified Water Shrine and step on the pressure plate (-263 93 -36)",
+        "3": "Take a Water Staff to the Earth Shrine or Amplified Earth Shrine and step on the pressure plate (284 64 219)",
+        "4": "Take a Mud Staff to the Fire Shrine or Amplified Fire Shrine and step on the pressure plate (-255 93 134)",
+        "5": "Take a Clay Staff to the Air Shrine or Amplified Air Shrine and step on the pressure plate (484 139 -4)",
+        "6: 6+ without quest complete advancement": "Head to the end of the Cave of Secrets with an Elemental Staff and step on the pressure plates (344 56 -172)",
+        "6: 6+ with quest complete advancement": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Staff",
+      "questNumber": "Quest04",
+      "questDescription": "Quest Start: Chest (180 95 -79)",
+      "questCompleteScores": [],
+      "questReqs": [
+        "Black Willows score of 1 or higher",
+        "The Staff Quest04 of 6",
+        "either an Elemental Staff or Carved Staff in inventory Carved Staff in starting chest"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "2": "Unstarted",
+        "3": "Unstarted",
+        "4": "Unstarted",
+        "5": "Unstarted",
+        "6": "Unstarted",
+        "7": "Open quest start chest to progress",
+        "8": "Take a Carved Staff or Elemental Staff to the Amplified Water Shrine and step on the pressure plate (-263 93 -36)",
+        "9": "Take a Torrent Staff to the Amplified Earth Shrine and step on the pressure plate (284 64 219)",
+        "10": "Take a Mudslide Staff to the Amplified Fire Shrine and step on the pressure plate (-255 93 134)",
+        "11": "Take an Argil Staff to the Amplified Air Shrine and step on the pressure plate (484 139 -4)",
+        "12: 12 without quest complete advancement": "Head to the end of the Cave of Secrets and step on the pressure plates (344 56 -172)",
+        "12: 12 with quest complete advancement": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Buried Blade",
+      "questNumber": "Quest05",
+      "questDescription": "Quest Start: Blackjack Stan (-103 96 -88)",
+      "questCompleteScores": [
+        9,
+        11,
+        21
+      ],
+      "questReqs": [
+        "Bandit Troubles Bad Path"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "2": "Speaking to Stan",
+        "3": "Speaking to Stan",
+        "4": "Speaking to Stan",
+        "5": "Quest given / Key given",
+        "8": "Returned sword to Stan",
+        "9": "Quest Complete (Stan path)",
+        "10": "Given sword to Rosie",
+        "11": "Quest Complete (Rosie path)",
+        "20": "Non-canon Quest started / Key given",
+        "21": "Non-canon Quest Complete"
+      }
+    },
+    {
+      "questName": "Missing Soldiers",
+      "questNumber": "Quest06",
+      "questDescription": "Quest Start: Sergeant Sigrun (-137 99 -96)",
+      "questCompleteScores": [
+        11,
+        24
+      ],
+      "questReqs": [
+        "Bandit Troubles Good Path"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "4": "Quest started / Tasked to find soldiers",
+        "5": "Returned clothes to Sigrun",
+        "9": "Tasked to find Kim",
+        "10": "Returned Kim\u0027s clothes",
+        "11": "Quest Complete",
+        "20": "Non-Canon Quest started",
+        "21": "Non-Canon returned clothes to Sigrun",
+        "22": "Non-Canon tasked to find Kim",
+        "23": "Non-Canon returned Kim\u0027s clothes",
+        "24": "Non-Canon Quest Complete"
+      }
+    },
+    {
+      "questName": "The Plague",
+      "questNumber": "Quest07",
+      "questDescription": "Quest Start: Dr Laurie (-108 95 -114)",
+      "questCompleteScores": [
+        24,
+        25
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "2": "Unstarted",
+        "3": "Unstarted",
+        "4": "Unstarted",
+        "5": "Quest given / find C\u0027Taz",
+        "6": "Talked to C\u0027Taz / find the 3 sets of items",
+        "7": "Unused legacy scores. Act as score \u003d 6",
+        "8": "Unused legacy scores. Act as score \u003d 6",
+        "9": "Unused legacy scores. Act as score \u003d 6",
+        "10": "Unused legacy scores. Act as score \u003d 6",
+        "11": "Unused legacy scores. Act as score \u003d 6",
+        "12": "Returned the 3 sets of items. Speak to C\u0027Taz",
+        "13": "Unused legacy scores",
+        "14": "Unused legacy scores",
+        "15": "Unused legacy scores",
+        "16": "Chose 5 Cure dose path",
+        "17": "Chose 4 Cure and 1 Potion path",
+        "23": "Old Ending - MUST SPEAK TO LAURIE",
+        "24": "Good Path Quest Complete",
+        "25": "Bad Path Quest Complete"
+      }
+    },
+    {
+      "questName": "Fountain of Miracles",
+      "questNumber": "Quest08",
+      "questDescription": "Quest Start: Drake (592 98 199)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Drake",
+        "2": "Quest given / find fountain",
+        "3": "Killing spiders (1 score given per spider kill)",
+        "4": "Killing spiders (1 score given per spider kill)",
+        "5": "Killing spiders (1 score given per spider kill)",
+        "6": "Killing spiders (1 score given per spider kill)",
+        "7": "Killing spiders (1 score given per spider kill)",
+        "8": "Killing spiders (1 score given per spider kill)",
+        "9": "Return to the fountain",
+        "10": "Return to Drake",
+        "11": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Runaway Pet",
+      "questNumber": "Quest09",
+      "questDescription": "Quest Start: Leonard (613 98 114)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Leonard",
+        "2": "Speaking to Leonard",
+        "3": "Speaking to Leonard",
+        "4": "Quest given / Find Snuggles",
+        "5": "BUGGED SCORE - Manually set score to 4",
+        "6": "Returned Snuggles / Quest Complete"
+      }
+    },
+    {
+      "questName": "Pyromania",
+      "questNumber": "Quest10",
+      "questDescription": "Quest Start: Carbocius (608 102 156)",
+      "questCompleteScores": [
+        4
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Carbocious",
+        "2": "Speaking to Carbocious",
+        "3": "Quest given / find magma items",
+        "4": "Returned items / Quest complete"
+      }
+    },
+    {
+      "questName": "Of Monks and Magic",
+      "questNumber": "Quest11",
+      "questDescription": "Quest Start: Captain Tobias (565 96 124)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Mages Legacy"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Captain Tobias",
+        "2": "Quest given / find monks",
+        "3": "Killing Sons (1 score given per kill)",
+        "4": "Killing Sons (1 score given per kill)",
+        "5": "Killing Sons (1 score given per kill)",
+        "6": "Killing Sons (1 score given per kill)",
+        "7": "Killing Sons (1 score given per kill)",
+        "8": "Killing Sons (1 score given per kill)",
+        "9": "Killing Sons (1 score given per kill)",
+        "10": "Enough Sons killed, speak to Abbot",
+        "11": "Quest complete"
+      }
+    },
+    {
+      "questName": "Sons of the Forest",
+      "questNumber": "Quest12",
+      "questDescription": "Quest Start: Captain Tobias (565 96 124)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Of Monks and Magic"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "2": "Speaking to Tobias",
+        "3": "Speaking to Tobias",
+        "4": "Speaking to Tobias",
+        "5": "Speaking to Tobias",
+        "6": "Quest given / find Sons hideout",
+        "7": "Curse given at the Sons hideout",
+        "8": "Talk to Vargos, ask “So, now what?”",
+        "11": "Curse cleared / Quest Complete"
+      }
+    },
+    {
+      "questName": "Siege of Highwatch",
+      "questNumber": "Quest13",
+      "questDescription": "Quest Start: Commander Haynes (1198 131 -106)",
+      "questCompleteScores": [],
+      "questReqs": [
+        "Sons of the Forest",
+        "The Plague"
+      ],
+      "questValues": {
+        "0: 0 through 1": "Unstarted",
+        "4": "Quest given / Fight off attack",
+        "5": "Ghasts killed, take out Summoning Stone",
+        "6": "Stone destroyed / talk to Haynes",
+        "7": "Speak to Warden in prison below Highwatch",
+        "8": "Spoken to Warden / make Truth Potion",
+        "12": "Potion made / Return to Warden",
+        "13": "Speaking to Warden",
+        "14": "Speaking to Warden",
+        "15": "Speaking to Warden",
+        "15: 15 + tag \"Quest13Done\"": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Pirates Life",
+      "questNumber": "Quest14",
+      "questDescription": "Quest Start: Levyn (-809 101 82)",
+      "questCompleteScores": [
+        10
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "2": "Unstarted",
+        "3": "Unstarted",
+        "4": "Quest given / Peg Leg",
+        "5": "Peg Leg given to Levyn",
+        "8": "Tasked to find Parrot",
+        "9": "Parrot given to Levyn",
+        "10": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Starry Night",
+      "questNumber": "Quest15",
+      "questDescription": "Quest Start: Mayleen (-118 109 -12)",
+      "questCompleteScores": [
+        9
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "2": "Speaking to Mayleen",
+        "3": "Speaking to Mayleen",
+        "4": "Speaking to Mayleen",
+        "5": "Quest given / find lense",
+        "6": "Lense found",
+        "7": "Lense given to Mayleen (Only score puzzle works)",
+        "8": "Puzzle Complete / Return to Mayleen",
+        "9": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Salmon",
+      "questNumber": "Quest16",
+      "questDescription": "Quest Start: Dockmaster (691 71 458)",
+      "questCompleteScores": [
+        14
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Dockmaster",
+        "2": "Speaking to Dockmaster",
+        "6": "Quest given / Talk to Quentin",
+        "7": "Speaking to Quentin",
+        "8": "Tasked to get Axtan Ale",
+        "10": "Given Quentin Axtan Ale / Find Salmon",
+        "12": "Caught Salmon / Return to Dockmaster",
+        "13": "Caught Salmon / Return to Dockmaster",
+        "14": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Dish to Die For",
+      "questNumber": "Quest17",
+      "questDescription": "Quest Start: Claude (734 74 460)",
+      "questCompleteScores": [
+        12,
+        13
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Quest given / Go to Tlaxan farm (Also sets the score of Quest17B\u003d2 for some reason)",
+        "2": "Given meat to Claude / Find beef in Highlands",
+        "3": "Given beef to Claude / Find meat in Cave",
+        "4": "Given mystery meat / Go upstairs",
+        "5": "Butchered Terry / prepare for fight",
+        "6": "Saved Terry / prepare for fight",
+        "7": "Fight Claude",
+        "8": "Fight Claude",
+        "10": "Died in Claude fight / Return to him",
+        "11": "Beat Claude in fight / Return to him",
+        "12": "Quest Complete (Died to Claude)",
+        "13": "Quest Complete (Beat Claude)"
+      }
+    },
+    {
+      "questName": "Vault of Glass",
+      "questNumber": "Quest18",
+      "questDescription": "Quest Start: Postman (1150 124 -129)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Bandit Troubles"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Got mail from Postman / Speak to Argent",
+        "2": "Speaking to Argent",
+        "3": "Quest given / Find Carlton",
+        "4": "Found Carlton / Kill thugs",
+        "5": "Killed thugs / Speak to Carlton",
+        "6": "Find Octavius\u0027 warehouse",
+        "7": "Give guard correct name",
+        "8": "Gave guard the correct name (Bruce)",
+        "9": "Dutches intercepts you / Return to Argent",
+        "10": "Speaking to Argent",
+        "11": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Nelfines Curse",
+      "questNumber": "Quest19",
+      "questDescription": "Quest Start: Nelfine (-775 103 -6)",
+      "questCompleteScores": [
+        7
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Nelfine",
+        "2": "Speaking to Nelfine",
+        "3": "Quest given / Find Overgrown Laboratory",
+        "4": "Puzzle complete / Return to Nelfine",
+        "5": "Configured Sample given to Nelfine",
+        "6": "Speaking to Nelfine",
+        "7": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Flash in the Pan",
+      "questNumber": "Quest20",
+      "questDescription": "Quest Start: Flashy (-797 100 28)",
+      "questCompleteScores": [
+        4
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Quest given / Start race",
+        "2": "Finished race / Speak to Flashy",
+        "4": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Unveiled",
+      "questNumber": "Quest21",
+      "questDescription": "Quest Start: Josiah (1175 143 -120)",
+      "questCompleteScores": [
+        20
+      ],
+      "questReqs": [
+        "Siege of Highwatch",
+        "Pyromania",
+        "Soul of the Forest",
+        "completion of the Yellow dungeon"
+      ],
+      "questValues": {
+        "0: 0 through 1": "Unstarted",
+        "2": "Quest given / gather Mistleaves from Cursed Forest and Wand of Blood from Graveyard",
+        "3": "Given Mistleaves to Josiah / Talk to Haynes",
+        "4": "Find Katherine",
+        "5": "Speaking to Katherine",
+        "6": "Search out Carbocious",
+        "7": "Find Carbocious\u0027 old lab",
+        "11": "Puzzle Complete / Given Hyper TNT",
+        "12": "Given TNT to Katherine / Return to Josiah",
+        "13": "Raiding Verdant",
+        "14": "Raiding Verdant",
+        "15": "Raiding Verdant",
+        "20": "Boss beaten / Quest Complete",
+        "100": "Speaking to Josiah about Hope",
+        "101": "Speaking to Josiah about Hope",
+        "102": "Speaking to Josiah about Hope",
+        "103": "Hope applied to an item"
+      }
+    },
+    {
+      "questName": "The Alchemy Labs",
+      "questNumber": "Quest22 RETIRED QUEST",
+      "questDescription": "Quest Start: Sir Reginald (-749 94 -83)",
+      "questCompleteScores": [],
+      "questReqs": [],
+      "questValues": {
+        "2": "Automatically set upon doing Labs in the tutorial."
+      }
+    },
+    {
+      "questName": "Winds of War",
+      "questNumber": "Quest23",
+      "questDescription": "Quest Start: Bhairavi (-113 107 -155)",
+      "questCompleteScores": [
+        16
+      ],
+      "questReqs": [
+        "Mages Legacy"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Bhairavi",
+        "2": "Quest given",
+        "3": "Use flower to find ghosts",
+        "4": "Spoke to Gypsum / Find Darius",
+        "5": "Spoke to Darius / Find Rethus",
+        "6": "Speaking to Rethus",
+        "7": "Spoke to Rethus / Go to Ruined Mansion",
+        "8": "Completed puzzle / Return item to Bharavi",
+        "10": "Given items to Bhairavi",
+        "11": "Speaking to Bhairavi",
+        "12": "Speaking to Bhairavi",
+        "13": "Speak to Bhairavi to begin race",
+        "14": "Race complete",
+        "15": "Speaking to Bhairavi\u0027s Projection",
+        "16": "Quest Complete",
+        "17": "Post Quest Dialogue with Bhairavi (White dungeon completed) (White done)",
+        "18": "Post Quest Dialogue with Bhairavi (White dungeon completed) (White done)",
+        "19": "Received Book from Vargos"
+      }
+    },
+    {
+      "questName": "Clear As Glass",
+      "questNumber": "Quest24",
+      "questDescription": "Quest Start: Nelfine (-775 103 -6)",
+      "questCompleteScores": [
+        20
+      ],
+      "questReqs": [
+        "Nelfines Curse"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Nelfine",
+        "2": "Quest given / Go to Highwatch",
+        "3": "Spoken to Ursan / Find Arian\u0027s office",
+        "4": "Thief beaten / Get book / Go to Arian",
+        "5": "Unused",
+        "6": "Speaking to Arian",
+        "7": "Speaking to Arian",
+        "8": "Spoke to Arian / Return to Nelfine",
+        "9": "Speaking to Nelfine",
+        "10": "Given book / Return to Arian",
+        "11": "Speaking to Arian",
+        "12": "Seek out the Overgrown Laboratory",
+        "13": "Found book in destroyed Lab / Go to Moist Ruins",
+        "14": "Memory 1 completed",
+        "15": "Memory 2 completed",
+        "16": "Memory 3 completed / Start Boss fight",
+        "18": "Boss defeated / Speak to Nelfine",
+        "19": "Speaking to Nelfine",
+        "20": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Beasts of Men",
+      "questNumber": "Quest25",
+      "questDescription": "Quest Start: Bhairavi (-113 107 -155)",
+      "questCompleteScores": [
+        12
+      ],
+      "questReqs": [
+        "Winds of War",
+        "White score of at least 1"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Bhairavi",
+        "2": "Speaking to Bhairavi",
+        "3": "Quest given / find Pten",
+        "4": "Speaking to Pten",
+        "5": "Speaking to Pten",
+        "6": "Speaking to Pten",
+        "7": "Find items in Beast camps",
+        "8": "Items given to Pten",
+        "9": "Crypt opened / Enter",
+        "Tag \"Siershen\"": "Completed Simon puzzle (NOTE: no scoreboard value association)",
+        "Tag \"Selxem\"": "Completed Alchemy puzzle (NOTE: no scoreboard value association)",
+        "Tag \"Cyrar\"": "Completed Archery puzzle (NOTE: no scoreboard value association)",
+        "Tag \"Arvaya\"": "Completed Combat challenge (NOTE: no scoreboard value association)",
+        "10": "Spoke to Pten with all Tags / Enter tomb",
+        "Tag \"ZanilBook\"": "Found book in Tomb (NOTE: no scoreboard value association)",
+        "11": "Spoke to Wexley in Orange lobby with ZanilBook tag",
+        "12": "Quest Complete",
+        "13": "Post Quest Dialogue with Bhairavi (Orange Dungeon completed)(Orange Done)",
+        "14": "Post Quest Dialogue with Bhairavi (Orange Dungeon completed)(Orange Done)"
+      }
+    },
+    {
+      "questName": "Starrier Night",
+      "questNumber": "Quest26 strap in this ones a long one",
+      "questDescription": "Quest Start: Montana (728 106 421)",
+      "questCompleteScores": [
+        43,
+        67
+      ],
+      "questReqs": [
+        "Starry Night",
+        "Bandit Troubles Bad Path to unlock Bad Path"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Montana",
+        "2": "Quest given / Find Mayleen",
+        "3": "Speaking to Mayleen",
+        "4": "Find lense in basement",
+        "5": "Completed Puzzle 1",
+        "6": "Found lens in storage room",
+        "8": "Given lens to Mayleen",
+        "9": "Find lens at Fishing Huts",
+        "10": "Completed Puzzle 2",
+        "11": "Found lens in Fishing Huts basement",
+        "13": "Given lens to Mayleen",
+        "14": "Find Gaius",
+        "15": "Speaking to Gaius",
+        "16": "Given lens from Gaius / Return to Mayleen",
+        "19": "Lens taken by guard / Talk to Mayleen",
+        "20": "Return to Gaius",
+        "21": "Speaking to Gaius",
+        "22": "Speaking to Gaius",
+        "23": "Puzzle 3 complete",
+        "24": "Lens found in vault",
+        "26": "Given lens to Gaius",
+        "27": "Spoke to Gaius / Return to Mayleen",
+        "29": "Given lens to Mayleen",
+        "30": "Spoke to Mayleen / Return to Montana",
+        "31": "Giving lenses to Montana",
+        "32": "Giving lenses to Montana",
+        "33": "Giving lenses to Montana",
+        "34": "Giving lenses to Montana",
+        "35": "Giving lenses to Montana",
+        "36": "Giving lenses to Montana",
+        "37": "Giving lenses to Montana",
+        "38": "Giving lenses to Montana",
+        "39": "Giving lenses to Montana",
+        "40": "Giving lenses to Montana",
+        "41": "Giving lenses to Montana",
+        "42": "Giving lenses to Montana",
+        "43": "Quest Complete (Bad Path)",
+        "45": "Spoke to Gaius / Listen in",
+        "46": "Listened in to Gaius / Return to Mayleen",
+        "47": "Speaking to Mayleen",
+        "48": "Speaking to Mayleen",
+        "49": "Spoke to Mayleen / Return to Gaius\u0027 tower",
+        "50": "Puzzle 3 completed",
+        "51": "Stole lens from Gaius / Return to Mayleen",
+        "53": "Given lens to Mayleen",
+        "54": "Spoke to Mayleen / Return to Montana",
+        "55": "Giving lenses to Montana",
+        "56": "Giving lenses to Montana",
+        "57": "Giving lenses to Montana",
+        "58": "Giving lenses to Montana",
+        "59": "Giving lenses to Montana",
+        "60": "Giving lenses to Montana",
+        "61": "Giving lenses to Montana",
+        "62": "Giving lenses to Montana",
+        "63": "Giving lenses to Montana",
+        "64": "Giving lenses to Montana",
+        "65": "Giving lenses to Montana",
+        "66": "Giving lenses to Montana",
+        "67": "Quest Complete (Good Path)"
+      }
+    },
+    {
+      "questName": "Bane of the Bakers",
+      "questNumber": "Quest27",
+      "questDescription": "Quest Start: Stefan (-865 104 31)",
+      "questCompleteScores": [
+        5
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to the Head Baker (-811 102 85)",
+        "2": "Report back to Stefan",
+        "3": "Enter the Baker\u0027s kitchen and get the recipe. (button to enter at -805 98 107, chest at -703 77 159) The chest sets the score.",
+        "4": "Return to Stefan with the recipe",
+        "5": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Crown of Madness",
+      "questNumber": "Quest28",
+      "questDescription": "Quest Start: Antoine (-766 107 130)",
+      "questCompleteScores": [
+        15
+      ],
+      "questReqs": [
+        "Winds of War",
+        "A Crown of Majesty",
+        "Completion of the White dungeon"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1: 1 through 2": "Talk to Antoine in the Academy",
+        "3": "Talk to Aimee the Jeweler",
+        "4": "Report back to Antoine",
+        "5": "Talk to the Royal Cartographer (Alchemist Building)",
+        "6": "Head to Haunted Mine. Enter quest instance area. Solve puzzle, Get Opal.",
+        "7": "Escape the opal mineshaft and defeat the ambush",
+        "8": "Talk to Antoine",
+        "9": "Bring the Opal to Orson the blacksmith",
+        "10": "Bring the Ugly Opal Crown to Aimee",
+        "11": "Talk to Aimee",
+        "12": "Track down the cursed crown via race/boss fight",
+        "13": "Talk to the King and the Royal Translator",
+        "14": "Talk to the Aimee",
+        "15": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Roots of the Plague",
+      "questNumber": "Quest29",
+      "questDescription": "Quest Start: Bhairavi (-113 107 -155)",
+      "questCompleteScores": [],
+      "questReqs": [
+        "Beasts of Men",
+        "The Plague",
+        "Orange score of at least 1"
+      ],
+      "questValues": {}
+    },
+    {
+      "questName": "Words Upon Hushed Lips",
+      "questNumber": "Quest30",
+      "questDescription": "Quest Start: Dimitri (-783 135 -42)",
+      "questCompleteScores": [
+        7
+      ],
+      "questReqs": [
+        "TotalLevel 3"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Dimitri",
+        "2": "Speaking to Dimitri",
+        "3": "Quest given / Go to Axtan",
+        "4": "Given Axtan book to Dimitri / Go to Anthill",
+        "5": "Given Anthill book to Dimitri / Go to Nyr Lab",
+        "6": "Given Nyr Lab book to Dimitri",
+        "7": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Crew to Remember",
+      "questNumber": "Quest31",
+      "questDescription": "Quest Start: Captain Indigo (683 76 491)",
+      "questCompleteScores": [
+        14
+      ],
+      "questReqs": [
+        "A Pirates Life",
+        "Optional Requirement Starrier Night for some different dialog"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Levyn",
+        "2": "Speak to Levyn below deck in Lowtide",
+        "3: 3 through 4": "Speak to Sumona in the Lowtide Library",
+        "5": "Find Captain Bijou’s spyglass in the Grand Maw and take it to Levyn",
+        "6": "Take the message from Levyn to the Royal Cartographer in Sierhaven",
+        "7": "Follow the coordinates to the Navigator and beat the hungry pirate",
+        "8": "Speak to Izzy (The Navigator)",
+        "9": "Speak to Izzy below deck in Lowtide",
+        "10": "Buy the Beginner’s Guide to Smuggling and put it in the middle of the chest in the Nyr well. Pearls is the password, talk to Samwell",
+        "11": "Put the goods in the middle of the drop off point in the Murky Maze",
+        "12": "Return and talk to Samwell",
+        "13": "Talk to Captain Indigo in Lowtide",
+        "14": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Scars of Magic",
+      "questNumber": "Quest32",
+      "questDescription": "Quest Start: Dimitri (-783 135 -42)",
+      "questCompleteScores": [
+        15
+      ],
+      "questReqs": [
+        "Words Upon Hushed Lips",
+        "Of Monks and Magic",
+        "Roots of the Plague score of at least 17",
+        "Magenta score of at least 1"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "2": "Speak to Deranged Alchemist downstairs",
+        "3": "Speak to Deranged Alchemist downstairs",
+        "4": "Speak to Keller at 885/-267",
+        "5": "Find a Logbook within the Collapsed Tower + Return to Keller",
+        "6": "Speak to Antigone within Seirshen’s study in Velara",
+        "7": "Speak to Keller with the Temporal Crystal from the Puzzle",
+        "8": "Ask Keller to amplify the Collapsed Tower",
+        "9": "Head through the basement of the amplified Collapsed Tower and solve the puzzle there",
+        "11": "Head through the newly opened door in the Collapsed Tower’s basement. Speak to Wrangler Sedol.",
+        "12": "Head through the hole in the wall and fight the boss",
+        "13": "Talk to Bhairavi in the Creeper Farm",
+        "14": "Talk to Brother Selim in the Light Blue Lobby",
+        "15": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Soul of the Forest",
+      "questNumber": "Quest33",
+      "questDescription": "Quest Start: Bhairavi (-113 107 -155)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Scars of Magic",
+        "Siege of Highwatch",
+        "Completion of the LB Dungeon"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Spoken to Bhairavi, directed to Highwatch",
+        "2": "Went to Highwatch jail, directed to Verdant",
+        "3": "Returned relic, speaking to Bhairavi",
+        "4": "Spoke to Bhairavi, directed to Haynes",
+        "5": "Spoke to Haynes, directed to Temple to Kaul",
+        "6": "Completed puzzle, need to start ambush",
+        "6: 6 + \"Ambush\" tag": "Currently fighting ambush",
+        "7": "Completed ambush, talking to Bhairavi",
+        "8": "Talked to Bhairavi, directed to Cursed Forest",
+        "9": "Fighting Boss in fake Yellow lobby",
+        "10": "Boss complete, talk to Brayllur",
+        "11": "Quest Complete",
+        "12": "Bhairavi post quest dialogue",
+        "13": "Bhairavi post quest dialogue"
+      }
+    },
+    {
+      "questName": "Memories of Battle",
+      "questNumber": "Quest34",
+      "questDescription": "Quest Start: Jeremiah (-923 107 -103)",
+      "questCompleteScores": [
+        16
+      ],
+      "questReqs": [
+        "Lost in My Mind",
+        "Completion of Wave 10 of the Arena"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Spoken to Jeremiah, directed to the Arena Shop",
+        "2": "Talked to Jeremiah in the shop, sent to get Key, return to Jeremiah",
+        "3": "Talked to Jeremiah again, sent to the employee quarters to investigate",
+        "4": "Completed the name puzzle, head into the Beast Pens.",
+        "5": "Pulled all the levers, entered the Dark Knight ambush",
+        "6": "Found all 4 trapped villagers, teleported to the copy of the office rooms.",
+        "7": "Talking with Yeigar",
+        "8": "Finished talking with Yeigar, go into the cage behind him.",
+        "9": "Talking to Jeremiah",
+        "10": "Talking to Yeigar in the arena lobby",
+        "11": "Talking to Yeigar in the arena lobby",
+        "12": "Talking to Yeigar in the arena lobby",
+        "12: 12 + \"Q34Boss\" tag": "Actively in the boss fight",
+        "13": "Boss fight complete, in the TRUTH room",
+        "14": "Talking to Jeremiah after opening the Memory Vault door",
+        "15": "Talking to Jeremiah after opening the Memory Vault door",
+        "16": "Quest complete"
+      }
+    },
+    {
+      "questName": "Supply and Demand",
+      "questNumber": "Quest35",
+      "questDescription": "Quest Start: Buildmaster Jr. (-779 106 21)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speaking to Buildmaster Jr",
+        "2": "Quest given / Get tempered glass",
+        "3": "Given Glass to Jr / Get hunters arrows",
+        "4": "Given Arrows to Jr / Get ice chest",
+        "5": "Return to Jr / Fill chest",
+        "6": "Return to Jr",
+        "8": "Head to Pauline in Nyr",
+        "9": "Given package to Pauline / Return to Jr",
+        "10": "Given Receipt to Jr",
+        "11": "Quest Complete",
+        "12": "Post Quest Dialogue with Jr"
+      }
+    },
+    {
+      "questName": "A Study In Crimson",
+      "questNumber": "Quest36",
+      "questDescription": "Quest Start: Jeremiah (Hit button at -917 93 -161, then hit button at -923 86 -125, then speak to Jeremiah)",
+      "questCompleteScores": [
+        28
+      ],
+      "questReqs": [
+        "Memories of Battle",
+        "Soul of the Forest",
+        "Unveiled",
+        "Shurimas Big Day Off",
+        "1 clear of any mode of Ephemeral Corridors"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Jeremiah in the Memory Vault",
+        "2": "Speak to Jeremiah in the Memory Vault",
+        "3": "Speak to Jeremiah in the Memory Vault",
+        "4": "Speak to Jeremiah in the Memory Vault",
+        "5": "Click the player head at -924 86 -134",
+        "6": "Make your way to Jeremiah, speak to him (repeat 5 if you leave)",
+        "7": "Make your way through the POI. Speak to Jeremiah (repeat 5 if you leave)",
+        "8": "Continue speaking to Jeremiah, fight a boss (repeat 5 if you leave)",
+        "9": "Speak to Jeremiah (repeat 5 if you leave)",
+        "10": "Speak to Max, sign a contract (repeat 5 if you leave)",
+        "11": "Speak to Max, sign a contract (repeat 5 if you leave)",
+        "12": "Speak to Max, sign a contract (repeat 5 if you leave)",
+        "13": "Speak to Jeremiah in the Memory Vault",
+        "14": "Click the player head at -924 86 -136, then speak to Max",
+        "15": "Continue speaking to max (repeat 14 if you leave)",
+        "16": "Get a drop from each of the four types of boss and talk to Max (click the head mentioned in 14 if you leave)",
+        "17": "Speak to Max, fight a boss, sign a contract (click the head mentioned in 14 if you leave)",
+        "18": "Speak to Jeremiah in the Memory Vault",
+        "19": "Speak to Jeremiah in the Memory Vault",
+        "20": "Click the player head at -918 86 -134, speak to Jeremiah",
+        "21": "Speak to Zanil (click the Zanil head if you leave)",
+        "22": "Speak to C\u0027Shura (click the Zanil head if you leave)",
+        "23": "Speak to C\u0027Shura (click the Zanil head if you leave)",
+        "24": "Speak to Zanil (click the Zanil head if you leave)",
+        "25": "Speak to Jeremiah in the Memory Vault",
+        "26": "Speak to Jeremiah in the Memory Vault",
+        "27": "Speak to Jeremiah in the Memory Vault",
+        "28": "A Study In Crimson Part 1 Complete"
+      }
+    },
+    {
+      "questName": "A Study In Crimson Part Two",
+      "questNumber": "Quest36",
+      "questDescription": "Quest Start: Jeremiah (Hit button at -917 93 -161, then hit button at -923 86 -125, then speak to Jeremiah)",
+      "questCompleteScores": [
+        48
+      ],
+      "questReqs": [
+        "A Study in Crimson Part One",
+        "Outer Demons",
+        "Forsworn Sanctum Win",
+        "R1 Monument Completion",
+        "Kaul victory"
+      ],
+      "questValues": {
+        "28": "Unstarted",
+        "29": "Speak to Jeremiah in the Memory Vault",
+        "30": "Click on Azacor’s head in the memory vault",
+        "31": "Accept the King\u0027s deal",
+        "32": "Defeat Azacor’s three demons and use the archer to float up and escape.",
+        "33": "Solve the beacon light puzzle (west to east: M LB C W O Y)",
+        "34": "Speak to Jeremiah on top of the monument in the Azacor memory",
+        "35": "Speak to Jeremiah on top of the monument in the Azacor memory",
+        "36": "Talk to Jeremiah in the memory vault",
+        "37": "Speak to C’Shura in her normal place through the statue",
+        "38": "Speak to C’Shura in her normal place through the statue",
+        "39": "Speak to C’Shura in her normal place through the statue",
+        "40": "Speak to C’Shura in her normal place through the statue",
+        "41": "Speak to C’Shura to go to the Zanil memory. Speak to Zanil.",
+        "42": "Follow 41’s steps, speak to R’Kitxet. Defeat C’Tnet",
+        "43": "Follow 41’s steps, speak to Zanil",
+        "44": "Speak to C’Shura to go to the Zanil memory. Speak to Zanil.",
+        "45": "Speak to Jeremiah in the Memory Vault",
+        "46": "Head to about 1289 169 -248 and stand there to enter the secret area. Make your way to the end of the area. Speak to that which is waiting.",
+        "47": "Interact with the final head in the memory vault, make your way through",
+        "48": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Lost in My Mind",
+      "questNumber": "Quest37",
+      "questDescription": "Quest Start: Eowen (601 97 181)",
+      "questCompleteScores": [
+        10
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0: 0 through 1": "Unstarted",
+        "2": "Quest given / Find Kurtis\u0027 bunker",
+        "3": "Given bunker book to Eowen",
+        "4": "Speaking to Eowen",
+        "5": "Spoke to Eowen / Find Kurtis",
+        "6": "Speaking to Kurtis",
+        "7": "Received book from Kurtis / Return to Eowen",
+        "8": "Talked to Eowen without the book, score set to 7",
+        "9": "Talked to Eowen with the book, talk to Eowen",
+        "10": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Clucked Up",
+      "questNumber": "Quest38",
+      "questDescription": "Quest Start: Master of Clucks (-106 97 -63)",
+      "questCompleteScores": [
+        14
+      ],
+      "questReqs": [
+        "An item with the Clucking enchant"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "2": "Talk to Master of Clucks",
+        "3": "Talk to Master of Clucks",
+        "4": "Speak to the Bunny Baron",
+        "5": "Fight and defeat the dreaded Pig God in the Bunny Baron’s Warren",
+        "6": "Get an egg from the Bunny Baron",
+        "7": "Speak to Master of Clucks with the egg",
+        "8": "Speak to Master of Clucks to warp into the lair. Talk to him inside the lair",
+        "9": "Speak to Master of Clucks within his lair",
+        "10": "Speak to Master of Clucks within his lair",
+        "11": "Speak to the Imprisoned Poultrygeist to start the race. If you get away from the race speak to the Master of Clucks to get back to the race area.",
+        "12": "Race complete. Talk to Master of Clucks",
+        "13": "Talk to Master of Clucks",
+        "14": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Tlaxan Troubles",
+      "questNumber": "Quest39",
+      "questDescription": "Quest Start: T’Lm (480 25 50)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Roots of the Plague",
+        "Magenta score of at least 1"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Quest still unstarted, agree to help T’Lm",
+        "2": "Quest still unstarted, agree to help T’Lm",
+        "3": "Velara through Farr’s sewers by Lowland Get three Sacred Herbs by filling cauldron with water",
+        "4": "Totem near Nyr, it is at 130 110 76.",
+        "5": "Totem near Ziggurat, it is at 311 133 -168",
+        "6": "Totem near Air Shrine, it is at 474 138 -49",
+        "7": "Talk to T’Lm",
+        "8": "Talk to T’Lm",
+        "9": "Find Ta’Eldim and talk to T’Xoc once inside",
+        "10": "Find Ta’Eldim and talk to T’Xoc once inside",
+        "11": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Time to Reflect",
+      "questNumber": "Quest40",
+      "questDescription": "Quest Start: Barras (427 196 -362)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Tlaxan Troubles"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Then solve the lights out puzzle.",
+        "2": "Open the chest in the Vault room.",
+        "3": "Hit the button the chest made, go through the now broken door before it is fixed. Do invisible barrier parkour using the reflection in the next room.",
+        "4": "Open the chest in the C’Zanil’s tomb area.",
+        "5": "Go into the cage that the chest opened up. Fall down. Then do barrier lights out parkour using the reflections as a guide.",
+        "6": "Open the chest in the Velara area.",
+        "7": "Jump in the water marked by a sea lantern after you open the chest in the Velara area.",
+        "8": "Talk to Barras",
+        "9": "Talk to Barras",
+        "10: 10 (Postquest)": "Ask Barras about “Her?”",
+        "11": "Quest fully complete"
+      }
+    },
+    {
+      "questName": "Shurimas Big Day Off",
+      "questNumber": "Quest41",
+      "questDescription": "Quest Start: Shurima (455 192 -382)",
+      "questCompleteScores": [
+        32
+      ],
+      "questReqs": [
+        "Tlaxan Troubles",
+        "Fountain of Miracles"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Shurima",
+        "2": "Talk to Shurima",
+        "3": "Talk to Moneychanger Elgort",
+        "4": "Talk to Moneychanger Elgort",
+        "5": "Talk to Shurima",
+        "6": "Talk to Shurima",
+        "7": "Talk to Murtag in the Bar",
+        "8": "Buy Tlaxan Wine from Murtag (trade) return to Shurima",
+        "9": "Talk to Shurima",
+        "10": "Talk to Arkhest in the library",
+        "11": "Talk to Talisa",
+        "12": "Talk to Talisa",
+        "13": "Talk to Arkhest in the library",
+        "14": "Talk to Arkhest in the library",
+        "15": "Talk to Moneychanger Elgort",
+        "16": "Talk to Moneychanger Elgort",
+        "17": "Talk to Arkhest in the library",
+        "18": "Talk to Arkhest in the library",
+        "19": "Find Midrey under the waterfall",
+        "20": "Find Midrey under the waterfall",
+        "21": "Talk to Arkhest in the library",
+        "22": "Talk to Shurima",
+        "23": "Talk to T’Xoc",
+        "24": "Talk to T’Xoc",
+        "25": "Talk to Shurima",
+        "26": "Talk to T’Xoc",
+        "27": "Talk to T’Xoc",
+        "28": "Find way to puzzle though door in hot springs",
+        "29": "Talk to T’Xoc",
+        "30": "Get through Corrupted Caves to the Sanctum Lobby and speak to Nai. If it unamps and they don’t get through to the end they will need to redo puzzle/talk to T’Xoc",
+        "31": "Talk to Nai",
+        "32": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Crystal Connection",
+      "questNumber": "Quest42",
+      "questDescription": "Quest Start: Macuniloh (482 191 -350)",
+      "questCompleteScores": [
+        24
+      ],
+      "questReqs": [
+        "Tlaxan Troubles",
+        "A Little Spark If it is started"
+      ],
+      "questValues": {
+        "0": "Unstarted/Talk to Macuniloh (NPC location: 482 191 -350)",
+        "1": "Keep talking to Macuniloh",
+        "2": "Collect 15 Spider Silk from the Swamp Sinkhole. Return to Nurse Deidre with them",
+        "3": "Head through the flowers onto pressure plates (491 187 -359) then head through the magenta area and talk to T’Lm (NPC location: 307 164 -518)",
+        "4": "Keep talking to T’Lm",
+        "5": "Keep talking to T’Lm",
+        "6": "Talk to Macuniloh",
+        "7": "Talk to the Ta’Eldim Guard (NPC location: 481 180 -388)",
+        "8": "Tell the Ta’Eldim Guard that you will investigate the commotion, then defeat the Son of the Forest invasion",
+        "9": "Talk to the Ta’Eldim Guard",
+        "10": "Talk to Macuniloh",
+        "11": "Return to Velara (494 71 128), then find your way to a path that hasn’t been used in a while (1008 182 750), then enter the room with the button and hit the button (975 192 728) and successfully complete the lava parkour",
+        "12": "Return to Macuniloh and talk to him with the crystal",
+        "13": "Talk to T’Xoc in the instanced bunker Macuniloh takes you to, he can take you back there if need be",
+        "14": "Talk to T’Xoc in the instanced bunker Macuniloh takes you to, he can take you back there if need be",
+        "15": "Explore fallen Eldim and defeat the boss",
+        "16": "Take the crystal to Cinevra (NPC location: -766 132 64)",
+        "18": "Take the crystal to Cinevra (NPC location: -766 132 64)",
+        "19": "Use the new teleporter in Sierhaven to get to Ta’Eldim, then talk to Macuniloh",
+        "20": "Use the new teleporter in Sierhaven to get to Ta’Eldim, then talk to Macuniloh",
+        "21": "Speak to T’Xoc in the bunker (see Macuniloh)",
+        "22": "Speak to Vargos in the bunker (see Macuniloh)",
+        "23": "Speak to T’Xoc in the bunker (see Macuniloh)",
+        "24": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Casting for Help",
+      "questNumber": "Quest43",
+      "questDescription": "Quest Start: Melinda (-890 96 189)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted/Talk to Melinda (NPC location: -890 96 189)",
+        "1": "Talk to Nurse Deidre",
+        "2": "Collect 15 Spider Silk from the Swamp Sinkhole. Return to Nurse Deidre with them",
+        "3": "Take the Cast and Crutch x2 from Nurse Deidre back to Melinda",
+        "4": "Talk to Melinda, teleport to her basement, open the empty chest.",
+        "5": "Talk to Melinda",
+        "6": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Starriest Night",
+      "questNumber": "Quest44",
+      "questDescription": "Quest Start: Maywitch (-1630 143 -2)",
+      "questCompleteScores": [
+        17
+      ],
+      "questReqs": [
+        "Starrier Night"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Agree to help",
+        "2": "Find a Cloudpiercer Fork in Cloud Piercer (-1538 133 -266), a Starblight Diagonal at the Bastion of Spires (-1366 140 -261), and an Andromeda Clamp at Aphelion Isle (-1518 106 399). Bring them to Maywitch.",
+        "3": "Talk to Maywitch",
+        "4": "Speak to Orion near the Toxin Lab (-1188 120 179) with the three items",
+        "5": "Talk to Maywitch with the new item",
+        "6": "Speak to Maywitch and look through the telescope.",
+        "7": "If in the overworld speak to Maywitch and ask to look through the telescope. If you are in the dark realm you should instead make your way through the area",
+        "8": "Speak to Maywitch",
+        "9": "Speak to Maywitch",
+        "10": "Speak to Professor Marl (-1077 83 -353). You need to get inside. From 12 to 15 you can get back in by talking to Marl.",
+        "11": "Speak to Professor Marl (-1077 83 -353). You need to get inside. From 12 to 15 you can get back in by talking to Marl.",
+        "12": "Move in the puzzle room",
+        "13": "Move in the puzzle room",
+        "14": "Move through the temple, find a chest, get the item inside",
+        "15": "Move around until things happen",
+        "16": "Return to Maywitch with the shard. If you have lost the shard, speak to Professor Marl and repeat from 14.",
+        "17": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Outer Demons",
+      "questNumber": "Quest45",
+      "questDescription": "Quest Start: Helring (724 70 523)",
+      "questCompleteScores": [
+        12
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Find Helring’s Diary (x\u003d1466 z\u003d101)",
+        "2": "Talk to Helring",
+        "3": "Talk to Helring",
+        "4": "Find Azacor’s ritual room and solve the “puzzle” inside",
+        "5": "Open the chest inside Azacor’s ritual room, you might have to resolve the “puzzle” to make the chest reappear.",
+        "6": "Escape from Azacor’s traps (triggered after last chest) by getting through various PoI areas",
+        "7": "Escape from Azacor’s traps (triggered after last chest) by getting through various PoI areas",
+        "8": "Escape from Azacor’s traps (triggered after last chest) by getting through various PoI areas",
+        "9": "Talk to Helring",
+        "10": "Hit the button at x\u003d1479 z\u003d118 and survive until Azacor is trapped.",
+        "11": "Talk to Helring in the lobby.",
+        "12": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Pigculiar Problem",
+      "questNumber": "Quest46",
+      "questDescription": "Quest Start: Walter Jr. (-774 107 121)",
+      "questCompleteScores": [
+        36
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "1": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "2": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "3": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "4": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "5": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "6": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "7": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "8": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "9": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "10": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "11": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "12": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "13": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "14": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "15": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "16": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "17": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "18": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "19": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "20": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "21": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "22": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "23": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "24": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "25": "Keep talking to Walter Jr. clicking through dialog until he speaks English (Score 24)",
+        "26": "Talk to Walter Jr.",
+        "27": "Talk to Walter Jr.",
+        "28": "Scale the tower on Crescent Isle far west of Sierhaven and talk to Percy",
+        "29": "Scale the tower on Crescent Isle far west of Sierhaven and talk to Percy",
+        "30": "Enter the workshop basement and lead Peppa with beetroot to get the potion",
+        "31": "Talk to Walter Jr.",
+        "32": "Talk to Walter Jr.",
+        "33": "Talk to Walter Jr.",
+        "34": "Talk to Walter Jr.",
+        "35": "Talk to Walter Jr.",
+        "36": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Halids Song",
+      "questNumber": "Quest47",
+      "questDescription": "Quest Start: Halid (469 180 -339)",
+      "questCompleteScores": [
+        4,
+        5
+      ],
+      "questReqs": [
+        "Tlaxan Troubles"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Halid with one of the Roguelike records",
+        "2": "Give Halid all six Roguelike records",
+        "3": "Talk to Halid",
+        "4": "Quest Complete",
+        "4: 4 Postquest 1": "Give Halid a Jammin Juke-box or “Organ” Music to gain a Quest47JJ score of 1 and an upgraded Juke-box. If both Postquest are done speaking to Halid will give you a score of 5",
+        "4: 4 Postquest 2": "Give Halid all of the City of Shifting Waters Discs to gain a Quest47COSW score of 1 and an upgraded Juke-box. If both Postquest are done speaking to Halid will give you a score of 5",
+        "5": "Quest + Postquest Complete (For now)"
+      }
+    },
+    {
+      "questName": "Port Panic",
+      "questNumber": "Quest48",
+      "questDescription": "Quest Start: Sergeant Velez (-1012 93 44)",
+      "questCompleteScores": [
+        7
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Sergeant Velez in the instanced area, if you get out of the instance during the quest, the overworld version will take you back there and set your score to 1 if it is between 2 and 5",
+        "2": "Battle waves of pirates dying sets you to 1",
+        "3": "Battle waves of pirates dying sets you to 1",
+        "4": "Battle waves of pirates dying sets you to 1",
+        "5": "Battle waves of pirates dying sets you to 1",
+        "6": "Talk to Sergeant Velez",
+        "7": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Scouts Codex",
+      "questNumber": "Quest49",
+      "questDescription": "Quest Start: Scout Laura (-733 129 -252)",
+      "questCompleteScores": [
+        4,
+        11
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Locate the Scout’s Log: Laura (-950 103 -355),then talk to Scout Laura with it in your inventory",
+        "2": "Talk to Scout Laura agree to her plan",
+        "3": "Find the pressure plates at (-897 91 -463) and walk on them. Fight things off as you set the three charges.",
+        "4": "Old quest complete. Talking to Laura will reset score to 0",
+        "8": "Leave the way you entered.",
+        "9": "Should automatically go to ten upon leaving, if stuck at 9 go over the pressure plates at (-897 91 -463)",
+        "10": "Talk to Scout Laura",
+        "11": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Into Thin Air",
+      "questNumber": "Quest51",
+      "questDescription": "Quest Start: Xenith (-1609 122 17)",
+      "questCompleteScores": [
+        22
+      ],
+      "questReqs": [
+        "Starriest Night"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Cloud Piercer around (-1520 98 -271)",
+        "2": "Let Cloud Piercer cutscene progress",
+        "3": "Defeat Nightseer",
+        "4": "Scenes after beating the Nightseer",
+        "5": "Scenes after beating the Nightseer",
+        "6": "Speak to Xenith",
+        "7": "Speak to Xenith",
+        "8": "Head through the Cathedral of the Deep to the bedrock area at the back (-1671 8 354)",
+        "9": "Speak to Spoilers",
+        "10": "Speak to Spoilers",
+        "11": "Return to the door near Professor Marl (-1077 83 -353). Talk to them.",
+        "12": "Cutscene score, speak to Professor Marl",
+        "13": "Let Marl convince you to go through the door. Marl can get you back through it at a later score",
+        "14": "Speak to Marl in the area past the door",
+        "15": "Cutscene score from talking to Marl",
+        "16": "Fight the Starseeker",
+        "17": "Fight the Starseeker",
+        "18": "Fight the Starseeker",
+        "19": "End of fight cutscene score",
+        "20": "Open the chest past the door at (-1143 23 -367)",
+        "21": "Open the chest past the door",
+        "22": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Crystal Visions",
+      "questNumber": "Quest52",
+      "questDescription": "Quest Start: Nai (516 22 564)",
+      "questCompleteScores": [
+        4
+      ],
+      "questReqs": [
+        "Corrupted score of at least 1",
+        "ForswornSanctum score of at least 1",
+        "KaulWins score of at least 1",
+        "Shurimas Big Day Off",
+        "The Crystal Connection"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Drink the potion Nai gave you",
+        "1: 1 or 2": "Head to Velara (494 71 128). Once there head through the path unlocked during Roots of the Plague (936 195 785). Then to the path used during Crystal Connection (986 181 752).",
+        "2": "Speak to Xolotl (1000 172 754) and dream. Make your way through the water maze area then go down the hole in the big glowstone crystal thing(-2408 175 429). Speak to Mictlan (-2377 129 433) and teleport. Attempt to open the chest at -2398 110 430). Beat the boss inside (Go in circles around it)",
+        "3": "Bring the item you got after beating the boss back to Nai. If you lost it Xolotl has more.",
+        "4": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Beast of a Book",
+      "questNumber": "Quest53",
+      "questDescription": "Quest Start: Erwen (600 99 115)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Yellow"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted",
+        "2": "Defeat 5 Star Spitters (Spawner at -1500 46 368). At the moment your score will not be updated after you beat 5, you just have to keep track on your own and realize that you need to go back to Erwen.",
+        "3": "Continue talking to Erwen",
+        "4": "Defeat 5 Weeping Barkings (Spawner at 1366 152 159). At the moment your score will not be updated after you beat 5, you just have to keep track on your own and realize that you need to go back to Erwen.",
+        "5": "Continue talking to Erwen",
+        "6": "Defeat 3 Hate Knights (PoI at 216, 87, 142). At the moment your score will not be updated after you beat 3, you just have to keep track on your own and realize that you need to go back to Erwen.",
+        "7": "Continue talking to Erwen",
+        "8": "Continue talking to Erwen",
+        "9": "Enter the lair of the Questing Beast. Beat it (-752 124 -52)",
+        "10": "Talk to Erwen",
+        "11": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Little Spark",
+      "questNumber": "Quest55",
+      "questDescription": "Quest Start: Cinevra (-766 132 64) or Mara (-756 132 73) (depending on Crystal Connection progress)",
+      "questCompleteScores": [
+        3
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Vinny, go downstairs, figure out the puzzle. Enter 504 into the elevator. Get the crystal from the chest and bring it to Cinevra",
+        "2": "Talk to Cinevra",
+        "3": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Burning Bright",
+      "questNumber": "Quest56",
+      "questDescription": "Quest Start: Suri (-1580 133 134)",
+      "questCompleteScores": [
+        5
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to the Head Alchemist in Sierhaven (-784 117 -50)",
+        "2": "Find the button to the puzzle room in Toxin Lab (-1192 36 126), solve the puzzle, get the Thermal Reagent out of the chest (-1181 4 128). Return to Suri.",
+        "3": "Talk to Suri",
+        "4": "Talk to Suri",
+        "5": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Elder Scrolls",
+      "questNumber": "Quest57",
+      "questDescription": "Quest Start: T’Xoc (473 196 -355)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Unveiled",
+        "The Crystal Connection",
+        "Reverie",
+        "Kaul"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to T’Xoc",
+        "2": "Press the button at 490 188 -381, after being teleported move forward into the ice wall. After that teleports you, solve the puzzle. If they leave the area for scores 3 through X repeat the first two steps of this score",
+        "3": "Solve the second puzzle",
+        "4": "Solve the third puzzle",
+        "5": "Speak to R’Tsiv (433 167 -648), if a player needs to leave they can left click the fire at (470 169 -620)",
+        "6": "Get wheat at (507 166 -676). Put wheat in hopper at (516 180 -658), collect ground flour at (513 170 -658), fish from the dock at around (476 164 -665) for 5 Figment of Dreaming. Then trade the ground flower and 5 Figment of Dreaming at the barrel at (433 171 -620). Take the resulting Akkotl back to R’Tsiv.",
+        "7": "Get a book from the barrel at (493 72 -185) under the Tiny Jungle Ruins",
+        "8": "Get a book from the barrel at (632 57 -108) under the Crossroad Ruins.",
+        "9": "Head to the Inner Sanctum and speak to Kathryn at (1052 73 296)",
+        "10": "Head to the Inner Sanctum and speak to Kathryn at (1052 73 296)",
+        "11": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Snow Man Left Behind",
+      "questNumber": "Quest58",
+      "questDescription": "Quest Start: Selholly Sprignos (-850 101 78)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Words Upon Hushed Lips"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Colder in Nyr (-122 96 -109)",
+        "2": "Continue to speak to Colder",
+        "3": "Continue to speak to Colder",
+        "4": "Bring Colder an Essence of Winter, either from an amplified PoI or the event.",
+        "5": "Speak to Colder and view cutscene.",
+        "6": "Speak to Colder in his lab (-330 172 -567) (accessed by talking to him in Nyr)",
+        "7": "Go into boss instance, defeat the boss",
+        "8": "Speak to Colder in his lab",
+        "9": "Speak to Colder in Nyr",
+        "10": "Speak to Selholly Sprignos",
+        "11": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Finished Business",
+      "questNumber": "Quest59",
+      "questDescription": "Quest Start: Taymian (-826 102 39)",
+      "questCompleteScores": [
+        9
+      ],
+      "questReqs": [
+        "None during the event Shurimas Big Day Off",
+        "Study Part 1",
+        "Crew to Remember",
+        "and Time to Reflect starting next week"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Taymian",
+        "2": "Speak to Taymian",
+        "3": "Speak to Taymian",
+        "4": "Speak to Taymian upstairs in Apartment 230",
+        "5": "Speak to Taymian upstairs in Apartment 230",
+        "5: 5 - Pick Adventure Time": "Adventure Time Path Starts",
+        "ATP": "Solve the parkour and get to the exit. This gives the player the tag FinishedAdventureTime (NOTE: no scoreboard value association)",
+        "5: 5 - Pick Study in Scarlet": "Study In Scarlet Path Starts",
+        "SIS Head 1": "Talk to the Invader of the Forest (-2715 159 -91). You will get the tag Quest59Head1 unless it is the last of the four. (NOTE: no scoreboard value association)",
+        "SIS Head 2": "Talk to the Serpensia Knot (-2730 158 -43). You will get the tag Quest59Head2 unless it is the last of the four. (NOTE: no scoreboard value association)",
+        "SIS Head 3": "Talk to the Serpensia Venomlord (-2632 156 -29). You will get the tag Quest59Head3 unless it is the last of the four. (NOTE: no scoreboard value association)",
+        "SIS Head 4": "Talk to the Serpensia Warrior (-2648 157 -76). You will get the tag Quest59Head4 unless it is the last of the four. (NOTE: no scoreboard value association)",
+        "SIS with 4 heads": "The Quest59Head tags are removed and you are given Quest59Sewer. Talk to the sewer grate (-2660 157 -66) (NOTE: no scoreboard value association)",
+        "SIS Sewers": "Find Herring and speak to Taymian (-2693 108 -63). This gives the player the tag FinishedStudyInScarlet (NOTE: no scoreboard value association)",
+        "5: 5 - Pick Crewvengers Crewsemble": "Crewvengers Crewsemble Path Starts. You must do the other two before this one",
+        "CC": "Find your crewmate and speak to Taymian (-2682 15 -81). This gives the player the tag FinishedCrewvengersCrewsemble (NOTE: no scoreboard value association)",
+        "5: 5 with 3 tags": "Speak to Taymian upstairs in Apartment 230",
+        "6": "Speak to Taymian upstairs in Apartment 230",
+        "7": "Speak to Taymian upstairs in Apartment 230",
+        "8": "Speak to Taymian upstairs in Apartment 230",
+        "9": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Voyage of Discovery",
+      "questNumber": "Quest101",
+      "questDescription": "Quest Start: Captain Argoun (625 119 559)",
+      "questCompleteScores": [
+        13
+      ],
+      "questReqs": [
+        "A Crew to Remember",
+        "R1Complete of 1"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Captain Argoun",
+        "2": "Talk to Indigo, go to Region 2",
+        "3": "Talk to Captain Indigo (Start of boat instance) at -557 118 2198",
+        "4": "Talk to Izzy",
+        "5": "Talk to Levyn",
+        "6": "Talk to Samwell, get cure",
+        "7": "Give cure to Levyn",
+        "8": "Talk to Izzy",
+        "9": "Talk to Captain Indigo",
+        "10": "Cutscene ending boat instance, if they stay at this they bugged out somehow. Either set to 9 or 11.",
+        "11": "Shoot button on the wall to escape jail. Talk to Izzy/Samwell in the sewers.",
+        "12": "Talk to Levyn in the Mistport pub.",
+        "13": "Quest Complete"
+      }
+    }
+  ]
+}
