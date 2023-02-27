@@ -21,6 +21,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MMQuest {
     private static HashMap<String, Quest> stringQuestHashMap;  //declaring my hashmap, see function setupQuests().
@@ -86,7 +87,7 @@ public class MMQuest {
                         Component blockFour = getQuestValues(target, quest);
 
                         //Combine my Component blocks:
-                        Component mmQuestOutput = Component.text("").color(TextColor.color(0xB2BEB5));;
+                        Component mmQuestOutput = Component.text("").color(TextColor.color(0xB2BEB5));
                         mmQuestOutput = mmQuestOutput.append(blockOne);
                         if (quest.checkQuestCompletion(target)) {mmQuestOutput=mmQuestOutput.append(blockOnep2);} //adds "Complete" if quest is complete.
                         else {mmQuestOutput=mmQuestOutput.append(blockOnep3);} //otherwise adds "Incomplete".
@@ -168,7 +169,7 @@ public class MMQuest {
                     Component blockFour = getQuestValues(target, quest);
 
                     //Combine my Component blocks:
-                    Component mmQuestOutput = Component.text("").color(TextColor.color(0xB2BEB5));;
+                    Component mmQuestOutput = Component.text("").color(TextColor.color(0xB2BEB5));
                     mmQuestOutput = mmQuestOutput.append(blockOne);
                     if (quest.checkQuestCompletion(target)) {mmQuestOutput=mmQuestOutput.append(blockOnep2);} //adds "Complete" if quest is complete.
                     else {mmQuestOutput=mmQuestOutput.append(blockOnep3);} //otherwise adds "Incomplete".
@@ -188,27 +189,16 @@ public class MMQuest {
 
                 .register();
 
-        new CommandAPICommand("mmquestupdatefromwiki")
-                .withPermission(CommandPermission.OP)
-                .executesPlayer((player, args) -> {
-                    player.sendMessage("MMQuest: Updating JSON file from wiki...");
-                    try {
-                        player.sendMessage(AllMyQuests.writeToJSON());
-                    } catch (IOException e) {throw CommandAPI.failWithString("Could not update file!");}
-                    player.sendMessage("MMQuest: JSON file updated. Reload plugin to update command!");
-                })
-
-                .register();
     }
 
 
     public static void setupQuests() throws IOException {
-        // Grabs file path for JSON file, parses it, places the results in AllMyQuests:
+        // Grabs file path for JSON file, parses it, places the results in an instance of AllMyQuests:
         Gson gson = new Gson();
-        File file = new File(Main.getINSTANCE().getDataFolder().getAbsolutePath() + "/allMyQuests.json" );
+        File file = new File(Main.getINSTANCE().getDataFolder().getAbsolutePath() + "/mmquest.json" );
         AllMyQuests allMyQuests = gson.fromJson(new FileReader(file),AllMyQuests.class);
 
-        // NOTE: The AllMyQuests class is used to store the JSON file's Quest objects in an arraylist.
+        // NOTE: The allMyQuests object is used to store the JSON file's Quest objects in an arraylist.
 
         // Sets up Hashmap which pairs String (questName) with its corresponding Quest instance:
         stringQuestHashMap = new HashMap<String, Quest>();
@@ -272,26 +262,46 @@ public class MMQuest {
 
         Component blockFour = Component.text("");
 
-        for (int i = 0; i < quest.questValues.length; i++) {
+        // Workflow:
+        // 1. For each entry in our questValues HashMap:
+        // 2. Create a textcomponent with the key (as an Integer) as the text, value (String) as the hoverevent.
 
-            // Workflow:
-            // 1. Take string of the format "X Hello this is a sentence", where X is a number;
-            // 2. Separate it into "X" and "Hello this is a sentence";
-            // 3. Turn "X" into an integer X (this is a questScore value);
-            // 4. "Hello this is a sentence" (this is the description associated with that value);
+        for (Map.Entry<String, String> valuePair : quest.questValues.entrySet()) {
+            String questValueScore = valuePair.getKey();
+            String questValueDesc = valuePair.getValue();
 
-            String[] questScoreAndScoreDescription = quest.questValues[i].split("\\s",2);
-            int questScore = Integer.parseInt(questScoreAndScoreDescription[0]);
-            String questScoreDescription = questScoreAndScoreDescription[1];
+            // Workflow: Convert questValueScore into a nice int, to use in clickEvent:
+            // Case 1: "5" -> Integer.parseInt();
+            // Case 2: "5 - does good stuff" -> split after the number, then Integer.parseInt();
+            // Case 3: "has a special tag" -> skip;
+            int questValueScoreInt = -100;
+            if (questValueScore.matches("[0-9]+")) { // Only contains digits
+                // Case 1:
+                questValueScoreInt = Integer.parseInt(questValueScore);
+            }
+            else {
+                String[] parts = questValueScore.split("(?<=\\d)(?=\\D+)", 2); // split after the number
+                String firstPart=parts[0].trim();
+                if (firstPart.matches("[0-9]+")) {
+                    // Case 2:
+                    questValueScoreInt = Integer.parseInt(firstPart);
+                }
+                    // Case 3:
+                    // Do nothing.
+            }
 
-            // questValue: Places each score in brackets with its description as a hoverevent:
-            Component questValue = Component.text(" [" + questScore + "] ")
-                    .hoverEvent(Component.text(questScoreDescription))
+            // Place each score in brackets with its description as a hoverevent:
+            blockFour = blockFour.append(Component.text(" ["));
+
+            Component questValue = Component.text(" "+questValueScore+" ")
+                    .hoverEvent(Component.text(questValueDesc))
                     //clickEvent: /mmquest <target> <quest_name (remove whitespace)> <value>.
-                    .clickEvent(ClickEvent.runCommand("/mmquest "+player.getName()+" "+quest.questName.replaceAll("\\s", "")+" "+questScore))
-                    .decoration(TextDecoration.BOLD, quest.getPlayerScore(player) == questScore)
-                    .decoration(TextDecoration.UNDERLINED, quest.getPlayerScore(player) == questScore);
+                    .clickEvent(ClickEvent.runCommand("/mmquest "+player.getName()+" "+quest.questName.replaceAll("\\s", "")+" "+questValueScoreInt))
+                    .decoration(TextDecoration.BOLD, quest.getPlayerScore(player) == questValueScoreInt)
+                    .decoration(TextDecoration.UNDERLINED, quest.getPlayerScore(player) == questValueScoreInt);
             blockFour = blockFour.append(questValue);
+
+            blockFour = blockFour.append(Component.text("] "));
         }
 
         if (quest.getPlayerScore(player)==-1) {
