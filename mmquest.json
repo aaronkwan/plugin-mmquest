@@ -5,18 +5,20 @@
       "questNumber": "Tutorial",
       "questDescription": "",
       "questCompleteScores": [],
-      "questReqs": [
-        "Score Step 10 Spoke to Nurse Deidre 11 Walked across the Welcome broadcast",
-        "head outside 12",
-        "13",
-        "14",
-        "15 Head to Murano 16 Spoke to Muradi",
-        "see Reginald downstairs and run Labs 17 Finished Labs",
-        "return to Sierhaven 18 Returned to lobby",
-        "see Reginald 19 Spoke to Reginald",
-        "see Sybil 20 Spoke to Sybil to end Tutorial"
-      ],
-      "questValues": {}
+      "questReqs": [],
+      "questValues": {
+        "10": "Spoke to Nurse Deidre",
+        "11": "Walked across the Welcome broadcast, head outside",
+        "12": "Head to Murano",
+        "13": "Head to Murano",
+        "14": "Head to Murano",
+        "15": "Head to Murano",
+        "16": "Spoke to Muradi, see Reginald downstairs and run Labs",
+        "17": "Finished Labs, return to Sierhaven",
+        "18": "Returned to lobby, see Reginald",
+        "19": "Spoke to Reginald, see Sybil",
+        "20": "Spoke to Sybil to end Tutorial"
+      }
     },
     {
       "questName": "A Crown of Topaz",
@@ -1053,7 +1055,8 @@
       ],
       "questReqs": [],
       "questValues": {
-        "0: 0 through 1": "Unstarted",
+        "0": "Unstarted",
+        "1": "Unstarted",
         "2": "Quest given / Find Kurtis\u0027 bunker",
         "3": "Given bunker book to Eowen",
         "4": "Speaking to Eowen",
@@ -1645,6 +1648,1935 @@
         "11": "Shoot button on the wall to escape jail. Talk to Izzy/Samwell in the sewers.",
         "12": "Talk to Levyn in the Mistport pub.",
         "13": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Raiding Party",
+      "questNumber": "Quest102",
+      "questDescription": "Quest Start: Captain Lamis (-746 83 1380)",
+      "questCompleteScores": [
+        10
+      ],
+      "questReqs": [
+        "Unveiled",
+        "Voyage of Discovery"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Captain Lamis",
+        "2": "Find Levyn at the Barracks at Sea",
+        "3": "Unused. I don’t know why.",
+        "4": "Talk to Levyn with the Best TNT Ever!",
+        "5": "Cutscene, talk to Levyn",
+        "6": "Grab the cache near Levyn and talk to Captain Lamis",
+        "7": "Find Samwell or Izzy at Skull Island",
+        "7: 7 Izzy": "Solve puzzle, get cache",
+        "7: 7 Samwell": "Talk to Samwell, defeat enemy, get cache.",
+        "7: 7 Caches Got": "Take the caches to Captain Lamis",
+        "8": "Unused. Because it is.",
+        "9": "Party time. Talk to Indigo to end the party. If you get out of the party, talk to Captain Lamis to re-enter it.",
+        "10": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Master of One",
+      "questNumber": "Quest103",
+      "questDescription": "Quest Start: The Teacher (-832 74 1275)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Blacksmith (x: 438, z: 770), Artisan (x: -1500, z: 939), Get both items return to the Teacher",
+        "2": "Talk to the Teacher",
+        "3": "Complete a specialization quest",
+        "4: 4 through 5": "Talk to the Teacher",
+        "6": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Towering Objective",
+      "questNumber": "Quest103a Berserker",
+      "questDescription": "Quest Start: Drehal (129 121 725)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted, continue talking to Drehal",
+        "2": "Take Drehals counter sigil and find another sigil in the Arcane Spire. Then go to the top of the PoI",
+        "3": "Talk to Drehal",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "What Lies Within",
+      "questNumber": "Quest103b Elementalist",
+      "questDescription": "Quest Start: Monk Gehri (202 85 1022)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted, continue talking to Monk Gehri",
+        "2: 2 Part 1": "Talk to Monk Gehri",
+        "3: 3 through 5": "Cutscene with Monk Gehri",
+        "2: 2 Part 2": "Solve puzzle. Yes the score reverts to 2 once you go into the mind for reasons.",
+        "6": "Talk to Monk Gehri",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Unyielding Potential",
+      "questNumber": "Quest103c Swordsage",
+      "questDescription": "Quest Start: Juste (-1105 94 904)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted, continue talking to Juste",
+        "2": "Talk to Juste, Defeat Richer",
+        "3": "Talk to Juste",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Putrefaction and Purification",
+      "questNumber": "Quest103d Paladin",
+      "questDescription": "Quest Start: Artol (-1336 132 491)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0: 0 through 13": "Unstarted Talk to Artol",
+        "14": "Enter the Cave for a one time message",
+        "15": "Fight the WIther, get the Spinal Column",
+        "16: 16 through 20": "Talk to Artol",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Aiming For Success",
+      "questNumber": "Quest103e Ranger",
+      "questDescription": "Quest Start: Hidgir (-1576 112 820)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted Talk to Hidgir",
+        "2: 2 through 3": "Talk to Hidgir",
+        "4: 4 through 8": "Shoot the targets Hidgir setup. Get close to the tower if you somehow end up at the bottom",
+        "9": "Talk to Hidgir",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Doctors Orders",
+      "questNumber": "Quest103f Apothecary",
+      "questDescription": "Quest Start: Apothecary Voraga (-1609 112 1018)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted, continue talking to Voraga",
+        "2": "Talk to Voraga With an Enderscale from Military Base",
+        "3": "Talk to Voraga",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Lost in the Dark",
+      "questNumber": "Quest103g Tenebrist",
+      "questDescription": "Quest Start: Kard (323 49 728)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Kard and make your way through the maze to talk to Kard again",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Guarding the Guarded",
+      "questNumber": "Quest103h Guardian",
+      "questDescription": "Quest Start: Galablad (-1782 143 367)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Galablad and agree to help",
+        "2": "If outside talk to Galablad to get inside. If inside talk to Grethony to start the first of 5 waves.",
+        "3": "Talk to Galablad",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Older Magic",
+      "questNumber": "Quest103i Arcanist",
+      "questDescription": "Quest Start: Shepor (-168 162 434)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted Talk to Shepor",
+        "2": "Find Unholy Chiastolite in the Cavern of Cinders and bring it to Weaponsmith Hian in Rahkeri",
+        "3: 3 through 4": "Talk to Shepor, have the wand from Hian at 3",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Simple Favor",
+      "questNumber": "Quest103j Assassin",
+      "questDescription": "Quest Start: Venen (-830 115 1396)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Crewman Berz near the Mistport Docks (-806 87 1408)",
+        "2": "Talk to Venen",
+        "3": "Get on the ship Berz mentioned, fight the captain",
+        "4": "Get the hit list and take it to Venen",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Healthful Networking",
+      "questNumber": "Quest103k Hierophant",
+      "questDescription": "Quest Start: Ellen (-1510 93 656)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted Talk to Ellen",
+        "2": "Find a Communication Crystal at the Bandit Encampment, return to Ellen",
+        "3": "Talk to Ellen",
+        "4": "Talk to Norsin in Frostgate with the Device",
+        "5": "Talk to Ellen",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "An Otherworldly Hunt",
+      "questNumber": "Quest103l Hunter",
+      "questDescription": "Quest Start: Hunter (1 126 878)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Head into Palm Tree Paradise and defeat the Otherworldly Cow",
+        "2": "Return to Hunter",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Deaths Swiftness",
+      "questNumber": "Quest103m Harbinger",
+      "questDescription": "Quest Start: Ghostly Figure (202 64 508)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted Talk to Ghostly Figure",
+        "2": "Talk to Ghostly Figure",
+        "3: 3 through 4": "Talk to Ghostly Figure to try again",
+        "5: 5 through 6": "Fighting various bosses, 6 might be unused",
+        "7": "Talk to Ghostly Figure",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Life is of the Essence",
+      "questNumber": "Quest103n Reaper",
+      "questDescription": "Quest Start: Bero (-865 95 1779)",
+      "questCompleteScores": [
+        100
+      ],
+      "questReqs": [
+        "Master of One Score of 3 or higher"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted Talk to Bero",
+        "2": "Get the essences of Pirate Captain, Master Scavenger, and Feyrune Marksman and bring them back to Bero",
+        "100": "Quest Complete"
+      }
+    },
+    {
+      "questName": "An Alcoholic Accord",
+      "questNumber": "Quest104",
+      "questDescription": "Quest Start: Salty Bartender (-829 87 1367)",
+      "questCompleteScores": [
+        8
+      ],
+      "questReqs": [
+        "Raiding Party"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted Talk to Salty Bartender",
+        "2": "Find a Distillation Column (-1795 102 869) in the Abandoned Winery, then return to the Salty Bartender",
+        "3": "Talk to Salty Bartender",
+        "4": "Find Viridian Hops (-862 105 924) at the Garden at Sea and Cactus Water (250 116 960) at Oasis Town. Then return to Salty Bartender.",
+        "5": "Head to the basement of the bar to help Levyn. Return the resulting brew to the Salty Bartender.",
+        "6": "Talk to Salty Bartender",
+        "7": "Talk to Levyn",
+        "8": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Lost Empire",
+      "questNumber": "Quest105",
+      "questDescription": "Quest Start: HIstorian Rhodes (-757 83 1346)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [
+        "The Wizards Apprentice"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Samwell in the sewers",
+        "2": "Head into the deeper part of the sewers, jump in the whirlpool, solve the puzzle, see cutscene",
+        "3": "Talk to First Mate Jones near their ship.",
+        "4": "Find the way to the Lime Lobby at the Bastion at Sea",
+        "5": "Speak to Second Mate Gary in the Lime Lobby.",
+        "6": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Wizards Apprentice",
+      "questNumber": "Quest106",
+      "questDescription": "Quest Start: Izzy (-739 83 1334)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "An Alcoholic Accord"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Head up the ladder near Izzy",
+        "2": "Get the items from the chests upstairs. Return to Izzy",
+        "3: 3 through 4": "Talk to Izzy",
+        "5: 5 Part 1": "Start of Ishnir Path. Speak to Scribe Shadah in Alnera’s Palace. Should have IshnirInv1 tag",
+        "5: 5 Part 2": "Enter the Sealed Record’s chamber, do the puzzle, get the book in the chamber. Should have IshnirInv2 tag.",
+        "5: 5 Part 3": "Approach Head Guard Obadiah about the book you discovered in the record’s chamber. Should have IshnirInv3 tag.",
+        "5: 5 Part 4": "Find the supply bunker in Rahkeri, fight the Xeno Crew within. Should have IshnirInv4 tag.",
+        "6: 6 Part 1": "Start of Chillwind Path. Talk to Deacon Duncan in Frostgate’s cathedral. Should have ChillwindInv1 tag",
+        "6: 6 Part 2": "Head into the cathedral’s catacombs and defeat the Undead Paladin. Should have ChillwindInv2 tag",
+        "6: 6 Part 3": "Return to Deacon Duncan. Should have ChillwindInv3 tag",
+        "6: 6 Part 4": "Talk to Holy Advisor Ridnan in Frostgate’s Castle. Should have ChillwindInv4 tag",
+        "6: 6 Part 5": "Head to the Royal Reserve in Nightroost. Solve the puzzle, get the book. Should have ChillwindInv5 tag",
+        "7": "End of Ishnir branch. Talk to Izzy",
+        "8": "End of Chillwind branch. Talk to Izzy",
+        "9": "Find the Cracked Crystal on Xeno’s ship. Return it to Izzy, see a cutscene",
+        "10": "Talk to Izzy",
+        "11": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Xenophobia",
+      "questNumber": "Quest107",
+      "questDescription": "Quest Start: Izzy (-739 83 1334)",
+      "questCompleteScores": [
+        16
+      ],
+      "questReqs": [
+        "The Lost Empire"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1: 1 through 5": "Talk to Izzy in Mistport to teleport to an instanced area where you need to find 4 items through a find the button style puzzle.",
+        "6": "Speak to Captain Indigo in Mistport",
+        "7": "Talk to Levyn in the bar",
+        "8": "Talk to Levyn in the bar, in dialog cutscene",
+        "9": "Influence a drinking contest between the Salty Bartender and Levyn",
+        "10: 10 Part 1": "Talk to Captain Indigo in Mistport for a teleport",
+        "10: 10 Part 2": "Search for Xeno’s underwater hideout.",
+        "10: 10 Part 3": "Battle against the terrifying Masked and listen to Xeno say you have no chance to escape",
+        "11": "Calder Appears. This is all cutscene, if they are here and not in the cutscene they need to be set to 10. Kill the boss for them since they already beat it.",
+        "12": "Calder kills Xeno and tries to kill you. This is still cutscene. If they are here and not in the cutscene, set them to 10 and kill the boss for them.",
+        "13: 13 through 14": "Speak to Vargos in Mistport",
+        "15": "Talk to Levyn in the Mistport Bar",
+        "16": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Gem of Ishnir",
+      "questNumber": "Quest108",
+      "questDescription": "Quest Start: Sierhaven Smith (340 42 720)",
+      "questCompleteScores": [
+        9
+      ],
+      "questReqs": [
+        "The Lost Empire"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted talk to Sierhaven Smith",
+        "2": "Talk to Archivist Nyra in the Pharaoh’s palace",
+        "3": "Talk to Sierhaven Smith",
+        "4": "Enter the Dehydrated Oasis and jump into the lowest lava pool to enter Tehkma Ka’s tomb. Solve the puzzle inside",
+        "5": "Unused",
+        "6": "Report back to Sierhaven Smith",
+        "7": "Meet Sierhaven Smith in the Lost Sand City ruins.",
+        "8": "Enter the underground area of the PoI, find the Grey lobby entrance, and talk to Siery in the lobby.",
+        "9": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Secrets Best Left Forgotten",
+      "questNumber": "Quest109",
+      "questDescription": "Quest Start: Issa (273 118 79)",
+      "questCompleteScores": [
+        10
+      ],
+      "questReqs": [
+        "The Gem of Ishnir",
+        "Harmonic Convergence"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1: 1 through 3": "Talk to Governor Amarion, Foreman Boris, and Record Keeper Shani. Tags given are Q109Amarion, Q109Boris, and Q109Shani",
+        "4": "Talk to Issa",
+        "5": "Investigate the Basanite Bore",
+        "6": "Talk to Issa",
+        "7": "Head to Terracotta Mining Town, retrieve the quest item there, and take it to Foreman Boris.",
+        "8": "Return to Basanite Bore and head to the bottom. Do the cube puzzle and fight the boss.",
+        "9": "Talk to Foreman Boris in the Cyan Lobby",
+        "10": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Rapacity",
+      "questNumber": "Quest110",
+      "questDescription": "Quest Start: Historian Rhodes (-757 82 1346)",
+      "questCompleteScores": [
+        14
+      ],
+      "questReqs": [
+        "Xenophobia",
+        "Secrets Best Left Forgotten",
+        "Mirrored Egos",
+        "Completion of the Lime",
+        "Pink",
+        "Gray",
+        "Light Gray",
+        "and Cyan dungeons"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Historian Rhodes",
+        "2": "Go with Historian Rhodes to the drained Lime. Find the four pieces of paper. Piece 1 is at -1512 95 -1040 in a gap in the wall, Piece 2 is at -1598 69 -1142 after parkouring up starting from around -1576 49 -1141, Piece 3 is at -1585 40 -1133 you need to race to it after flipping a lever at -1613 40 -1123, Piece 4 is at -1559 86 -1081 after solving the chair puzzle. Once you have all four talk to Historian Rhodes to get a book.",
+        "3": "Talk to Historian Rhodes about the book, then head to the Pink lobby to talk to the Harmonious Spirit (-980 20 643)",
+        "4": "Head into the Sealed Descent and find the Blessed Glass (-1051 63 595) return to the Harmonious Spirit with it.",
+        "5": "Speak to the Harmonious Spirit and go to the puzzle.",
+        "6": "Solve puzzle, speak to Harmonious Spirit with the book",
+        "7": "Speak to Harmonious Spirit",
+        "8": "Speak to Archivist Nyra in Alnera (423 7 877)",
+        "9: 9 and 10": "Speak to Shani in Molta (184 97 22)",
+        "11": "Get a Thick Ink Pouch at Vengence at Sea (-1668 81 -355) and take it to Shani in Molta",
+        "12": "Speak to Shani in Molta",
+        "13": "Follow the map to the Corsair’s Claw Poi. Find the dungeon teleport button. Work your way through the illusions and talk to the unnamed ghost, who might be named if someone else is nearby in the lobby.",
+        "14": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Freds Bizarre Adventure",
+      "questNumber": "Quest111",
+      "questDescription": "Quest Start: Fred (-442 14 -496)",
+      "questCompleteScores": [
+        13
+      ],
+      "questReqs": [
+        "Completion of either the Cyan or Light Gray dungeon"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1: 1 through 2": "Talk to Fred",
+        "3": "Head to Crystalline Vault and watch Fred Drown",
+        "4": "Head further into the PoI until Fred regears",
+        "5": "Head even further into the PoI until Fred calls you slow and tells you to get the item from the chest.",
+        "6": "Talk to Fred in Steelmeld, give him the Silvic Crystal",
+        "7": "Continue talking to Fred, agree to solve the puzzle",
+        "8": "Solve the Puzzle. One solution is to flip the water, then flip blue, red, yellow, green, letting each fully update every time before flipping the next one. Then flip red and purple and wait 10 seconds.",
+        "9": "Grab the Purified Silvic Crystal, talk to Fred to return to Steelmeld, and throw it on the pedestal near the steel bar covered doorway",
+        "10": "Talk to Fred to enter the PoI, make your way through it until Fred is killed by a zombie",
+        "11": "Continue through the PoI until Fred complains about being wiped by the zombie",
+        "12": "Step on the pressure plate in the PoI to get to the Dungeon Lobby, once there talk to Fred",
+        "13": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Long Way Down",
+      "questNumber": "Quest112",
+      "questDescription": "Quest Start: Guard Myra (402 75 687)",
+      "questCompleteScores": [
+        4
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted Talk to Guard Myra",
+        "2": "Head to the top of Cinder’s Roost and defeat the Ponike",
+        "3": "Return to Guard Myra",
+        "4": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Ten Thousand Bets",
+      "questNumber": "Quest113",
+      "questDescription": "Quest Start: James (-1722 140 -108)",
+      "questCompleteScores": [
+        9
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Go to the Casino by talking to James/Myriad",
+        "2": "Watch the scene, hit the button to win a gold bar that James/Myriad takes and then gives back",
+        "3": "Somehow you left the cutscene. You can get back into it by talking to James/Myriad.",
+        "4": "Talk to James/Myriad in the casino. If they have phased out of existence you will need to use the emergency escape and then talk to him.",
+        "5": "Talk to James/Myriad",
+        "6": "Get past the casino bouncer and complete the puzzle to get the chestplate",
+        "7": "Give the chestplate to Myriad",
+        "8": "Talk to Myriad",
+        "9": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Primeval Creations I",
+      "questNumber": "Quest114",
+      "questDescription": "Quest Start: Old Journal in Inventory (434 59 752) (Al Nera Library)",
+      "questCompleteScores": [
+        5
+      ],
+      "questReqs": [
+        "Soul of the Forest"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Book grabbed, timer starts quest. Place book in top slot of the furnace at 438 63 774. Enter the first room on the left",
+        "2": "Solve the puzzle",
+        "3": "Enter the other room further down the hallway.",
+        "4": "Solve the puzzle",
+        "5": "Quest complete"
+      }
+    },
+    {
+      "questName": "Primeval Creations II",
+      "questNumber": "Quest114",
+      "questDescription": "Quest Start: Body and Pestilence in Inventory (-6 139 563) (Abandoned Library)",
+      "questCompleteScores": [
+        10
+      ],
+      "questReqs": [
+        "Primeval Creations I"
+      ],
+      "questValues": {
+        "5": "Quest Unstarted",
+        "6": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Orange wool",
+        "7": "Solve the puzzle",
+        "8": "Enter the room marked with Magenta wool",
+        "9": "Solve the puzzle",
+        "10": "Quest complete"
+      }
+    },
+    {
+      "questName": "Primeval Creations III",
+      "questNumber": "Quest114",
+      "questDescription": "Quest Start: Magic and the Elements in Inventory (-1314 158 93) (Smitten Library)",
+      "questCompleteScores": [
+        15
+      ],
+      "questReqs": [
+        "Primeval Creations II"
+      ],
+      "questValues": {
+        "10": "Quest Unstarted",
+        "11": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Light Blue wool",
+        "12": "Solve the puzzle",
+        "13": "Enter the room marked with Yellow wool",
+        "14": "Solve the puzzle",
+        "15": "Quest complete"
+      }
+    },
+    {
+      "questName": "Primeval Creations IV",
+      "questNumber": "Quest114",
+      "questDescription": "Quest Start: Knowledge and Balance in Inventory (-2034 140 1284) (Mystical Tower)",
+      "questCompleteScores": [
+        20
+      ],
+      "questReqs": [
+        "Primeval Creations III and Rapacity"
+      ],
+      "questValues": {
+        "15": "Quest Unstarted",
+        "16": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Lime wool",
+        "17": "Solve the puzzle",
+        "18": "Enter the room marked with Pink wool",
+        "19": "Solve the puzzle",
+        "20": "Quest complete"
+      }
+    },
+    {
+      "questName": "Primeval Creations V",
+      "questNumber": "Quest114",
+      "questDescription": "Quest Start: Death and Light in Inventory (-2029 94 -82) (Shroom Spires)",
+      "questCompleteScores": [
+        25
+      ],
+      "questReqs": [
+        "Primeval Creations IV"
+      ],
+      "questValues": {
+        "20": "Quest Unstarted",
+        "21": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Gray wool",
+        "22": "Solve the puzzle",
+        "23": "Enter the room marked with Light Gray wool",
+        "24": "Solve the puzzle",
+        "25": "Quest complete"
+      }
+    },
+    {
+      "questName": "Primeval Creations VI",
+      "questNumber": "Quest114",
+      "questDescription": "Quest Start: Mind, Emotion, and ... in Inventory (584 11 -408) (Magmortic Atheneum)",
+      "questCompleteScores": [
+        30
+      ],
+      "questReqs": [
+        "Primeval Creations V"
+      ],
+      "questValues": {
+        "25": "Quest Unstarted",
+        "26": "Book grabbed, timer starts quest. Place book from 434 59 752 in top slot of the furnace at 438 63 774. Enter the room marked with Cyan wool",
+        "27": "Solve the puzzle",
+        "28": "Enter the room marked with Purple wool",
+        "29": "Solve the puzzle",
+        "30": "Quest complete"
+      }
+    },
+    {
+      "questName": "The Foreign Soldier",
+      "questNumber": "Quest115",
+      "questDescription": "Quest Start: Region 2 Vargos (-740 83 1337)",
+      "questCompleteScores": [
+        5,
+        6
+      ],
+      "questReqs": [
+        "Xenophobia"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted Talk to Vargos",
+        "2": "You need to see Ambassador Matori in Alnera (339 72 711), Kugo in Alnera (356 45 717), General Arne in Frostgate (-1499 94 1031), and Ivon the Lazy in Frostgate (-1530 100 1003)",
+        "2: 2 + Q115MatoriUnstarted tag": "Matori path not started",
+        "2: 2 + Q115MatoriStarted1 tag": "Purchase Royal Red Tea Leaves from Surya in Rahkeri (-119 170 455), take them to Matori",
+        "2: 2 + Q115MatoriStarted2 tag": "Talk to Matori",
+        "2: 2 + Q115MatoriDone tag": "Ambassador Matori path done",
+        "2: 2 + Q115KugoUnstarted tag": "Kugo path not started",
+        "2: 2 + Q115KugoStarted1 tag": "Talk to Kugo",
+        "2: 2 + Q115KugoStarted2 tag": "Head to the Crystal Forest Grove and get a Crystalline Shroom Sample (-1724 114 462). Bring it back to Kugo",
+        "2: 2 + Q115KugoStarted3 tag": "Talk to Kugo",
+        "2: 2 + Q115KugoDone tag": "Kugo path complete",
+        "2: 2 + Q115ArneUnstarted tag": "Arne path not started",
+        "2: 2 + Q115ArneStarted1 tag": "Head down the ladder on the catapult near Arne and solve the puzzle/",
+        "2: 2 + Q115ArneStarted2 tag": "Talk to Arne",
+        "2: 2 + Q115ArneDone tag": "Arne path complete",
+        "2: 2 + Q115IvonUnstarted tag": "Ivon path not started",
+        "2: 2 + Q115IvonStarted1 tag": "Find the Aged Arak in the Sunken Tower (-5 77 471) and take it to Ivon",
+        "2: 2 + Q115IvonStarted2 tag": "Talk to Ivon",
+        "2: 2 + Q115IvonDone tag": "Ivon path complete",
+        "2: 2 + All 4 Done tags": "Talk to Vargos in Mistport",
+        "3": "Talk to Vargos in Mistport",
+        "4": "Talk to either the Chillwind or Ishnir person at the Mistport docks",
+        "5": "Quest Complete Chillwind",
+        "6": "Quest Complete Ishnir"
+      }
+    },
+    {
+      "questName": "Harmonic Convergence",
+      "questNumber": "Quest116",
+      "questDescription": "Quest Start: Harmonious Spirit (-1560 95 955)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [
+        "The Lost Empire"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1: 1 through 2": "Unstarted talk to Harmonious Spirit",
+        "2": "Watch the scene, hit the button to win a gold bar that James/Myriad takes and then gives back",
+        "3": "This short lived score becomes 4 upon entering any of the four shrine quest rooms",
+        "4: 4 Spring": "Head to the Spring Shrine, find the plate, solve the puzzle (pay respect to the dead by taking a flower from a grave and bringing it to an empty grave, do this once for each flower type). This gives the Spring tag.",
+        "4: 4 Summer": "Head to the Summer Shrine, find the plate, beat the blazes. This gives the Summer tag.",
+        "4: 4 Fall": "Head to the Fall Shrine, find the plate, step on another plate. This gives the Fall tag.",
+        "4: 4 Winter": "Head to the Winter Shrine, find the plate, beat wither skeletons. This gives the Winter tag.",
+        "4: 4 Tags Got": "Talk to Harmonious Spirit",
+        "5": "Travel through Sealed Descent and talk to Harmonious Spirit in the pink lobby.",
+        "6": "Quest Complete",
+        "7": "Post Quest if you talk to them after finishing Pink",
+        "8": "No Comment. This isn’t a bugged score and that is what is important."
+      }
+    },
+    {
+      "questName": "Fabled Destiny",
+      "questNumber": "Quest117",
+      "questDescription": "Quest Start: Herriot the Loyal (-1531 101 997)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Anette",
+        "2": "Be near the chest containing the Blade of Destiny when it is opened. (Crystal Forest Grove)",
+        "3": "Bring the Blade of Destiny to Harriot the Loyal",
+        "4": "Defeat Harriot the Loyal",
+        "5": "Speak to Harriot the Loyal",
+        "6": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Overdoomed",
+      "questNumber": "Quest118",
+      "questDescription": "Quest Start: Archivist Saanavi (-1826 127 -83)",
+      "questCompleteScores": [
+        6,
+        13
+      ],
+      "questReqs": [
+        "A Simple Favor Only to buy the poison to poison Cypress",
+        "you can get it from someone else and skip this requirement",
+        "or just not poison him and also skip it"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Cypress",
+        "2: 2 Drinking Contest": "Challenge Cypress to a contest. This sets your score to 10",
+        "2: 2 Poison": "Slip Deadly Poison into Cypress’s drink. You need to either buy or be given Deadly Poison to do this. Deadly Poison can be bought from Venen in Mistport after completing a Simple Favor. Doing this sets your score to 3.",
+        "3": "Talk to Cypress. If you have the Deadly Poison your score is set to 4 instantly, if not it is set to 2",
+        "4": "Talk to Cypress",
+        "5": "Head to the Mountain Market, get the book, return it to Archivist Saanavi",
+        "6": "Quest Complete (Poison Route)",
+        "10": "Talk to Cypress, drinking contest",
+        "11": "Drinking contest lost. Stepping on the pressure plates in the bar will reset their score to 2 so they can try again/change routes",
+        "12": "Drinking contest won. Head to Mountain Market, get the book, return it to Archivist Saanavi",
+        "13": "Quest complete (Contest Route)"
+      }
+    },
+    {
+      "questName": "Sabotage",
+      "questNumber": "Quest119",
+      "questDescription": "Quest Start: Lieutenant Aulber (-142 177 467)",
+      "questCompleteScores": [
+        2
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Head to the Abandoned Lab, collect 12 Infused Gunpowder, talk to Lieutenant Aulber",
+        "2": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Vital Needs",
+      "questNumber": "Quest120",
+      "questDescription": "Quest Start: Dr. Qure (-758 86 1355)",
+      "questCompleteScores": [
+        4
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Travel to Fungus Thorn Cave, get a Tenebre Mushroom, return to Dr. Qure",
+        "2": "Travel to Feyrune Forest, get a Saragundi Sapling, return to Dr. Qure",
+        "3": "Travel to Spiral Island, get some Kelp Oil, return to Dr. Qure",
+        "4": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Merchants Woe",
+      "questNumber": "Quest121",
+      "questDescription": "Quest Start: Riaz (-98 154 459)",
+      "questCompleteScores": [
+        4
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Supplier Anebos below Cinder’s Roost (x:127 y:78 z:632)",
+        "2": "Talk to Riaz",
+        "3": "Travel to Rockspider Cavern, find the goods, return and talk to Riaz",
+        "4": "Quest Complete",
+        "5": "A postquest dialog shutoff score that is part of Quest129"
+      }
+    },
+    {
+      "questName": "Stablemasters Request",
+      "questNumber": "Quest122",
+      "questDescription": "Quest Start: Miane (208 100 8)",
+      "questCompleteScores": [
+        7
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Find a horse near the outskirts of the Mesa, southeast of the Crystal Crown. (x: 398, z: 283) Return to Miane with the horse",
+        "2": "This score is got when you walk over the pressure plate near Miane with the first horse breed. Talk to Miane",
+        "3": "Find a horse in the caverns under the Abandoned Library in the Canyonlands (x: -1, z: 590) Return to Miane with the horse",
+        "4": "This score is got when you walk over the pressure plate near Miane with the second horse breed. Talk to Miane",
+        "5": "Find a horse in the Oasis near a spring sandwiched between the Charred Arcanery and Palm Tree Paradise (x: 0, z: 939) Return to Miane with the horse",
+        "6": "This score is got when you walk over the pressure plate near Miane with the third horse breed. Talk to Miane",
+        "7": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Dealbreaker",
+      "questNumber": "Quest123",
+      "questDescription": "Quest Start: Safar (222 95 30)",
+      "questCompleteScores": [
+        5
+      ],
+      "questReqs": [
+        "A Merchants Woe"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Safar",
+        "2": "Head to the client’s house (x: 192, z: 168) and find the basement access. Deal with what is inside and find a book",
+        "3": "Take that book back to Safar",
+        "4": "Head to Magmashroom Mines. Find the goods and return to Safar with them",
+        "5": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Unmasked",
+      "questNumber": "Quest124",
+      "questDescription": "Quest Start: Vargos (-740 83 1337)",
+      "questCompleteScores": [
+        19
+      ],
+      "questReqs": [
+        "Kingdom of Lies",
+        "R is for Reprisal"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to either Brandy (-1823 88 2403) or Vargos (-1826 87 2403) and go through the clickable dialog.",
+        "2": "Speak to Masked Ridnan (-1823 88 2407)",
+        "3": "Should autoplay to 4 upon getting it, if it is interrupted for some reason, speak to Brandy.",
+        "4: 4 Part 1": "Hit the magically appearing button and go under the bed into the sewers. Make your way to (-4718 219 332). Click the text and you get the tag MaskedThreat.",
+        "4: 4 part 2": "Continue to (-4768 219 344) click on the dialog to enter the boss fight.",
+        "5": "Beat the Masked",
+        "6: 6 and 7": "Speak to the Masked",
+        "8: 8 and 9": "Speak to Vargos",
+        "10: 10 to 13": "Speak to Bhairavi (-543 6 -528)",
+        "14": "Figure out the puzzle and meet up with Bhairavi’s assistant (-789 14 -440)",
+        "15": "Go down the spiral staircase near the assistant and beat the dungeon.",
+        "16: 16 to 18": "Speak to Bhairavi (-543 6 -528)",
+        "19": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Fishy Business",
+      "questNumber": "Quest125",
+      "questDescription": "Quest Start: Lincoln (-798 87 1435)",
+      "questCompleteScores": [
+        5
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Head to the Sunken Ship and be near the chest containing the Salmon when it is opened.",
+        "2": "Return to Lincoln with the Salmon",
+        "3": "Give the Salmon to Alton",
+        "4": "Talk to Lincoln",
+        "5": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Well Deserved Rest",
+      "questNumber": "Quest126",
+      "questDescription": "Quest Start: Sam Ludvic (-1599 106 1007)",
+      "questCompleteScores": [
+        14
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Squire Tano",
+        "2": "Talk to Sam Ludvic",
+        "3": "Talk to Sam Ludvic once you have a Steel Woodcutter (A free one can be found in the Smuggler’s Cabin), Trebuchet Stone (Solve Bombardier Marty’s riddle. Solution: talk to him with Gravel), and Gloop (Witch’s Village slimes in Region 1)",
+        "4": "Talk to Sam Ludvic to teleport to an instance. If you talk to the Sam Ludvic outside of the instance with a score of 5 to 12 it will reset you to this score",
+        "5": "Talk to Sam Ludvic and observe the use of gloop",
+        "6": "Cutscene score. If they disconnect, they will have to use the emergency escape and talk to Sam Ludvic",
+        "7": "Talk to Sam Ludvic and observe the power of teleportation",
+        "8": "Talk to Sam Ludvic",
+        "9": "Fight off guards until Sam Ludvic is done making a hole in the ground. Then finish the fight. If you disconnect there is a chance the check will happen when you aren’t there for it requiring use of the emergency escape + restart",
+        "10": "Talk to Sam Ludvic",
+        "11": "Cutscene score where a rock falls and makes a mess. If you disconnect here you likely will have to emergency escape + restart",
+        "12": "Run into the Marshall’s office and pour out his coffee by hitting a button/stepping on a pressure plate.",
+        "13": "Talk to Sam Ludvic",
+        "14": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Out With a Bang",
+      "questNumber": "Quest127",
+      "questDescription": "Quest Start: Ebonee (-1760 132 -51)",
+      "questCompleteScores": [
+        8
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Find a way into the student’s quarters and find Ebonee’s wand. Be near the chest when it is opened.",
+        "2": "Return to Ebonee with the wand",
+        "3": "Check the bottom floor of the Academy. Find a way into the confiscated storage area and find the alchemical supplies. Be near the chest when it is opened",
+        "4": "Return to Ebonee with the supplies",
+        "5": "Head to the Frigid Laboratory and find an Incendiary Charge. Then take it to Ebonee.",
+        "6": "Talk to Ebonee and observe the prank that barely counts as a prank and more counts as vandalism. If you disconnect during this you can use the emergency escape button and talk to Ebonee to replay the scene.",
+        "7": "Talk to Ebonee",
+        "8": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Sunken Feeling",
+      "questNumber": "Quest128",
+      "questDescription": "Quest Start: Cropmaster Afondo (-715 95 1439)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1: 1 through 2": "Speak to Afondo",
+        "3": "If you had no items on you, you would already be in the farm, if not make sure you have no items then talk to Afondo to get to the farm. Once in the farm you need to find three dissolver items and take them to three coral heads. Horn Coral Dissolver (-717 42 1499) \u003e Horn Coral (-728 27 1519) Tube Coral Dissolver (-717 42 1563) \u003e Tube Coral (-754 24 1536) Fire Coral Dissolver (-778 46 1509) \u003e Fire Coral (-784 37 1543) Then leave the farm (Exit: -694 47 1531) and talk to Alfondo",
+        "4: 4 through 5": "Talk to Alfondo",
+        "6": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A Lost Cause",
+      "questNumber": "Quest129",
+      "questDescription": "Quest Start: Amina (323 47 764)",
+      "questCompleteScores": [
+        8
+      ],
+      "questReqs": [
+        "Dealbreaker"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Hassan (use plates near x: 463, z:375). There is a water timing puzzle that I am horrible at.",
+        "2": "Save Hassan from the ambush, or just talk to him and make him think you did. He will be fine, maybe.",
+        "3": "Talk to Amina",
+        "4": "Talk to Riaz",
+        "5": "Head to the Warehouse Compound and get mapping supplies. Then return and talk to Riaz.",
+        "6": "Talk to Amina",
+        "7": "Head to Bandit Hideaway Hill and get 10 food supplies from the chests. Then return and talk to Amina.",
+        "8": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Bleeding Proof",
+      "questNumber": "Quest130",
+      "questDescription": "Quest Start: Quest115 of 5 - Wilhelm, Chillwind Diplomat (-1295 130 467) \u0026amp; Quest115 of 6 - Torren, Ishnir Diplomat (-150 167 417)",
+      "questCompleteScores": [
+        19,
+        39
+      ],
+      "questReqs": [
+        "An Unlikely Partnership",
+        "The Foreign Soldier"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Start of Ishnir path, gotten shortly before Izzy is summoned in",
+        "2": "Talk to Izzy in Rahkeri",
+        "3": "Jump into the terrifying void hole at the Congress. Then find Izzy (-996 123 2273) and speak to him",
+        "4": "Defeat the Hooded Assassin that appears after speaking to Izzy in the Congress",
+        "5": "Step on one of the pressure plates leading out of the Congress (-1017 120 2279 to -1017 120 2276). Speak to Izzy on the other side (-1650 113 766).",
+        "6": "Speak to Royal Advisor Ridnan (-1572 106 997) and watch the Izzy cutscene.",
+        "7": "Speak to Izzy outside of the castle (-1561 95 1001)",
+        "8": "Use the Energy Detector to find the first point in Wispervale (-1697 125 -98)",
+        "9": "Use the Energy Detector to find the second point in Wispervale (-1742 131 -42)",
+        "10": "Use the Energy Detector to find the third point in Wispervale (-1743 124 -92)",
+        "11": "Use the Energy Detector to find the fourth point in Wispervale (-1799 128 -48)",
+        "12": "Speak to Johei (-1799 115 -80)",
+        "13": "Speak to Izzy outside of the cave (-1797 129 -50)",
+        "14": "Get a Blessed Wisp Oil from Cliffside Ruins (-1840 128 147) and take it to the Soul Forge (-1797 115 -84) right click on the oil to use it",
+        "15": "Speak to the Spirit of the Forge (-1799 114 -84). Ask for help finding the survivor, and then pick the right head (-1799 42 -89)",
+        "16": "Find Professor Lyson (-1842 169 -89). Speak to him followed by one of the diplomats. Observe cutscene",
+        "17": "Enter Alnera’s Palace through the main entrance (398 6 837). View cutscene. Speak to Izzy. View cutscene.",
+        "18": "Speak to Izzy in Mistport (-740 83 1334)",
+        "19": "Quest Complete Ishnir Path",
+        "21": "Start of Chillwind path, gotten shortly before Izzy is summoned in",
+        "22": "Talk to Izzy in Nightroost",
+        "23": "Jump into the terrifying void hole at the Congress. Then find Izzy (-996 123 2273) and speak to him.",
+        "24": "Defeat the Hooded Assassin that appears after speaking to Izzy in the Congress",
+        "25": "Step on one of the pressure plates leading out of the Congress (-1017 120 2279 to -1017 120 2276). Speak to Izzy on the other side (-1650 113 766).",
+        "26": "Speak to Royal Advisor Ridnan (-1572 106 997) and be teleported out by Izzy",
+        "27": "Speak to Izzy outside of the castle (-1561 95 1001)",
+        "28": "Use the Energy Detector to find the first point in Wispervale (-1697 125 -98)",
+        "29": "Use the Energy Detector to find the second point in Wispervale (-1742 131 -42)",
+        "30": "Use the Energy Detector to find the third point in Wispervale (-1743 124 -92)",
+        "31": "Use the Energy Detector to find the fourth point in Wispervale (-1799 128 -48)",
+        "32": "Speak to Johei (-1799 115 -80)",
+        "33": "Speak to Izzy outside of the cave (-1797 129 -50)",
+        "34": "Get a Blessed Wisp Oil from Cliffside Ruins (-1840 128 147) and take it to the Soul Forge (-1797 115 -84) right click on the oil to use it",
+        "35": "Speak to the Spirit of the Forge (-1799 114 -84). Ask for help finding the survivor, and then pick the right head (-1799 42 -89)",
+        "36": "Find Professor Lyson (-1842 169 -89). Speak to him followed by one of the diplomats. Observe cutscene",
+        "37": "Enter Alnera’s Palace through the main entrance (398 6 837). View cutscene. Speak to Izzy. View cutscene.",
+        "38": "Speak to Izzy in Mistport (-740 83 1334)",
+        "39": "Quest Complete Chillwind Path"
+      }
+    },
+    {
+      "questName": "Treasure of the Past",
+      "questNumber": "Quest131",
+      "questDescription": "Quest Start: Zulamar (391 57 730)",
+      "questCompleteScores": [
+        8
+      ],
+      "questReqs": [
+        "The Lost Empire"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Head to Sunken Tomb, go to the lava area under the PoI hit the button at -315 14 81. This sets score to 2. If you leave the area and return to the puzzle room with a score of 3 to 6 your score is reset to 2",
+        "2": "Walk forward in the puzzle room.",
+        "3": "Move forward until it mentions the barrier. Typically this will happen at the same point as the message to get to 3.",
+        "4": "Drop into the water and hit the button at -1444 15 -1155. This also creates a waterfall on the other side of the room if it isn’t already active. Hitting the button with a score of 5 will recreate the waterfall preventing a softlock",
+        "5": "Head to the other side of the room, swim up the waterfall and through the 1 block gap. Then hit the button. This button will recreate the waterfall at a score of 6 if it has vanished to prevent a softlock",
+        "6": "You can now walk through the barrier and get the Apotheosis Spear from the chest.",
+        "7": "Take the Apotheosis Spear back to Zulamar. Pick a reward",
+        "8": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Kingdom of Lies",
+      "questNumber": "Quest132",
+      "questDescription": "Quest Start: Torren, Ishnir Diplomat (-150 167 417)",
+      "questCompleteScores": [
+        15
+      ],
+      "questReqs": [
+        "Bleeding Proof",
+        "Rapacity"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Torren, Ishnir Diplomat (-150 167 417)",
+        "2": "Speak to Foreman Boris (184,110,43), then make your way through the mine and speak to Sani (-1393 168 -1254) to get a pickaxe.",
+        "3: 3 Part 1": "Speak to Leeton (-1343 177 -1238) he will take your pickaxe and give you the tag Leeton1. Return to Sani (-1393 168 -1254) for another pickaxe",
+        "3: 3 Part 2": "Speak to Leeton (-1343 177 -1238) he will take your pickaxe and give you the tag Leeton2. Return to Sani (-1393 168 -1254) for another pickaxe",
+        "3: 3 Part 3": "Speak to Leeton (-1343 177 -1238) he will take your pickaxe and give you the tag Leeton3. Speak to Leeton again to see a short cutscene and to get Permafrost Ice. If you lose the Permafrost Ice you can repeat Part 1 to 3",
+        "3: 3 Part 4": "Speak to Crispy Cal (-1364 171 -1246) with the Permafrost Ice. After a scene you will get an Empty Minecart. You can repeat the process if you lose the minecart.",
+        "3: 3 Part 5": "Speak to Wall Boy (-1361 167 -1262) and believe them. You will get a Small Container. You can repeat the process if you lose it somehow.",
+        "3: 3 Part 6": "Speak to Tiq and Toq (-1331 177 -1260). Select Secure it, Use what you have, and Start from the bottom. They will dig up endermites. Right-click the small container to put them into the container to get a “Small Container + Endermite”. If you lose the “Small Container + Endermite” you can talk to them to cause them to remine and capture the new Endermites in a different chest/Small Container.",
+        "3: 3 Part 7": "Speak to Sani (-1393 168 -1254) with the Empty Minecart and the Small Container + Endermite. As to send the cart down the track. Observe the cutscene and get the Mineshaft Key. Should you lose it, repeat the step",
+        "3: 3 Part 8": "Hit the button that leads to the cyan lobby (-1397 159 -1278)",
+        "4": "Speak to Boris (2 44 406)",
+        "5: 5 and 6": "Speak to Vargos (-740 83 1337)",
+        "7": "Talk to Torren, Ishnir Diplomat (-150 167 417)",
+        "8": "Speak to Head Guard Obadiah (-1531 106 -1328) to enter cutscene. Then speak to Torren, Ishnir Diplomat (-791 167 2507)",
+        "9: 9 and 10": "Speak to Head Guard Obadiah (-1531 106 -1328)",
+        "11": "Get into the parkour cell and make your way out of the prison. Players might need skipped past a water speed puzzle section. If they do just put them after the walls that open when you pull the lever (-1540 138 -1285). Get the books in the Pharaoh’s room and step on the pressure plate.",
+        "12": "Defeat the boss",
+        "13: 13 and 14": "Speak to Head Guard Obadiah (-1531 106 -1328) and go through the following cutscene.",
+        "15": "Quest Complete"
+      }
+    },
+    {
+      "questName": "R is for Reprisal",
+      "questNumber": "Quest133",
+      "questDescription": "Quest Start: Wilhelm, Chillwind Diplomat (-1295 130 467)",
+      "questCompleteScores": [
+        15
+      ],
+      "questReqs": [
+        "Bleeding Proof",
+        "Rapacity"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Head to the Wispervale Library and find the “beautiful lady” (-1829 131 -79) which is a book. This gives you the tag Q133Belladonna. Talk to Belladonna (-1720 135 -77)",
+        "2: 2 and 3": "Speak to Belladonna and agree to help teleporting into an instance",
+        "4": "Speak to Belladonna and get Barrier Crystals",
+        "5: 5 Part 1": "Place one of Belladonna’s Crystals (-4430 139 567) and get the Q133Crystal1 tag",
+        "5: 5 Part 2": "Place one of Belladonna’s Crystals (-4441 132 628) and get the Q133Crystal2 tag and the Q133GrandHunterTip tag",
+        "5: 5 Part 3": "Place one of Belladonna’s Crystals (-4433 140 700) and get the Q133Crystal3 tag",
+        "5: 5 Part 4": "Place one of Belladonna’s Crystals (-4374 139 612) and get the Q133Crystal4 tag",
+        "5: 5 Part 5": "Speak to Belladonna",
+        "6": "Speak to Johei (-1799 115 -80) and let them take you to the great spirit. Then solve the puzzle.",
+        "7": "Speak to the Spirit of the Forge near the puzzle. Then talk to Belladonna (-1720 135 -77)",
+        "8": "Head to the Frostgate cathedral (-1465 95 962) and go down into the basement. Talk to the Wet Mage Hunter (-1526 82 965) to find out that you very much can’t just go in (optional, but the intended progression). Next find the broken sewer grate (-1487 95 978) and go in. Make your way through the incredibly implausible sewer system and up into a bathroom. Continue until you find Belladonna, talk to her and start the meeting.",
+        "9": "Go through the meeting",
+        "11": "Beat the Grand Hunter, probably by abusing their mechanics",
+        "12": "Speak to Wilhelm in the instanced throne room",
+        "13": "Speak to Synnove Obregson in the instanced throne room",
+        "14": "Speak to Wilhelm in the instanced throne room",
+        "15": "Quest Complete (Speak to Wilhelm in the instanced throne room to leave)"
+      }
+    },
+    {
+      "questName": "Mirrored Egos",
+      "questNumber": "Quest134",
+      "questDescription": "Quest Start: Luc (-1814 161 -34)",
+      "questCompleteScores": [
+        12
+      ],
+      "questReqs": [
+        "The Gem of Ishnir",
+        "Harmonic Convergence"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Unstarted, speak to Luc (-1814/-34)",
+        "2: 2 through 3": "Speak to Belladonna (-1720/-77)",
+        "4": "Find the magic relic in Grim Towers (-1521/194/-278), then take it to Belladonna",
+        "5": "Take the book you got from Belladonna to Luc",
+        "6": "Find the statue of Alutana (-1260/-77) and solve the puzzle inside (pattern matching). Get both quest items inside.",
+        "7": "Take the book from the statue puzzle to Luc",
+        "8: 8 through 9": "Take the ice from the statue puzzle to Belladonna",
+        "10": "Head to Whitecliffe Citadel and find the button that leads to the Light Gray lobby (-1462/-25)",
+        "11": "Speak to Belladonna in the Light Gray lobby",
+        "12": "Quest Complete"
+      }
+    },
+    {
+      "questName": "An Unlikely Partnership",
+      "questNumber": "Quest136",
+      "questDescription": "Quest Start: Tiffy (-817 81 1326)",
+      "questCompleteScores": [
+        19
+      ],
+      "questReqs": [
+        "The Foreign Soldier and Vault of Glass Optional requirements for extra dialog A Dish to Die For",
+        "Unyielding Potential Swordsage Trial",
+        "A Simple Favor Assassin Trial",
+        "Fishy Business",
+        "1 Gloop"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Tiffy, accept the teleport, step on the pressure plates in the room you are taken to (either near -828 30 2559 or near -841 30 2559), then after a cutscene sit in the chair at -833 54 2569. Continue with cutscenes until another teleport.",
+        "2: 2 through 3": "Speak to the glass agent without a custom head (-762 97 2575) Tiffy can get them there if they left the meeting",
+        "4": "Talk to the glass agent with a custom head and have him help them leave. Tiffy can help them return if they aren’t in the meeting room.",
+        "5": "Talk to Tiffy about the meeting.",
+        "6": "Tell Indigo (-763 83 1448) that there is a situation that needs addressing.",
+        "7": "Tell Indigo that you are ready to proceed. Then leave the room you are placed in and talk to either Welhelm, Chillwind Diplomat (-875 54 2416), or Torren, Ishnir Diplomat (-977 54 2418). From 7 to 17, if they aren’t in an instance Indigo can take them where they need to go.",
+        "8": "Talk to Captain Indigo (-1058 57 2425)",
+        "9": "Talk to Izzy (-1089 54 2415)",
+        "10": "Use the Spymaster 9001 at -1074 66 2412. If they lost it, they can get another from Indigo, Levyn, Izzy, or Vargos at the party.",
+        "11": "Talk to Captain Indigo to find out where some of the Chillwind sailors went.",
+        "12": "Talk to Vargos (-988 54 2430) for more information on the Chillwind sailors.",
+        "13": "Use the Spymaster 9001 at -969 51 2413. If they lost it, they can get another from Indigo, Levyn, Izzy, or Vargos at the party.",
+        "14": "Talk to Captain Indigo to find out how to get upstairs.",
+        "15": "Speak to Levyn (-1065 53 2441) for more on how to get upstairs",
+        "16": "Use the Spymaster 9001 at -1068 68 2433. If they lost it, they can get another from Indigo, Levyn, Izzy, or Vargos at the party.",
+        "17": "Sit and click through the cutscene. Remember from 7-17 Indigo outside of the party can get you where you need to go or replace the Spymaster 9001.",
+        "18": "Speak to Tiffy",
+        "19": "Quest Complete"
+      }
+    },
+    {
+      "questName": "WOOF",
+      "questNumber": "Quest137",
+      "questDescription": "Quest Start: Aquamarine (281 122 40)",
+      "questCompleteScores": [],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Aquamarine",
+        "2: 2 through 23": "Get the bone from the chest (280 124 29). Talk to Aquamarine.",
+        "Tag: Quest137Done": "Quest Complete (NOTE: no scoreboard value association)"
+      }
+    },
+    {
+      "questName": "Bloody Banquet",
+      "questNumber": "Quest139",
+      "questDescription": "Quest Start: Bethenny (-1489 101 923)",
+      "questCompleteScores": [],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Guard Timmeh (-1494 98 943) to head to the banquet and speak to Countess Corinne (-4249 135 660)",
+        "2": "Speak to Susan, Tirich, Jared, Jerry, and Alyssa (each gives a tag), then speak to Countess Corinne",
+        "3: 3 to 4": "Talk to Countess Corinne",
+        "5": "Talk to Guard Timmeh",
+        "6": "Click on Countess Corinne and check her hand. Then talk to Guard Timmeh",
+        "7: 7 Part 1": "Right click on the Fingerprinting Kit around (-4214 122 472)",
+        "7: 7 Part 2": "Right click on the Fingerprinting Kit around (-4241 123 467)",
+        "7: 7 Part 3": "Right click on the Fingerprinting Kit around (-4233 124 523)",
+        "7: 7 Part 4": "Right click on the Fingerprinting Kit around (-4244 122 519)",
+        "7: 7 Part 5": "Right click on the Fingerprinting Kit around (-4210 123 509)",
+        "7: 7 Part 6": "Right click on the Fingerprinting Kit around (-4230 123 493)",
+        "7: 7 Part 7 OR 8 Part 1": "Left click on (-4233 125 476)",
+        "7: 7 Part 8": "Talk to Guard Timmeh",
+        "8: 8 Part 1": "Left click on (-4233 125 476) if you haven’t already",
+        "8: 8 Part 2": "Talk to Susan, ask about suspicious people",
+        "8: 8 Part 3 and 9": "Talk to Guard Timmeh, suspect Jerry",
+        "30": "Talk to Guard Timmeh",
+        "31": "Talk to Guard Timmeh",
+        "200: 200 (yes 200)": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Rooster Crows at Midnight",
+      "questNumber": "Quest140",
+      "questDescription": "Quest Start: Nightroost, Holy Royal Reserves (Vault)",
+      "questCompleteScores": [
+        9
+      ],
+      "questReqs": [
+        "The Wizards Apprentice"
+      ],
+      "questValues": {
+        "0: 0 through 2": "Open chest and take note",
+        "2: 2 through 3": "Open passageway",
+        "3: 3 through 5": "Akema Monologue",
+        "6": "Find the cache",
+        "7": "Get the map piece",
+        "8": "Return the map to Akema",
+        "9": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Flock and Key",
+      "questNumber": "Quest141",
+      "questDescription": "Quest Start: Akema (-1645 124 -1331) (Hit the three buttons in the house at -1410 103 588)",
+      "questCompleteScores": [
+        8
+      ],
+      "questReqs": [
+        "The Rooster Crows at Midnight"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Find an island around -857 82 500, approach the gate",
+        "2": "Solve the sword puzzle",
+        "3": "Advance through the newly opened gate below the sword puzzle. Begin parkour",
+        "4: 4 through 6": "Parkour, open chest at the end",
+        "7": "Return to Akema and speak to him",
+        "8": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Stone Ocean",
+      "questNumber": "Quest142",
+      "questDescription": "Quest Start: Fred (-480 10 -396)",
+      "questCompleteScores": [
+        21
+      ],
+      "questReqs": [
+        "Freds Bizarre Adventure",
+        "R1Bonus and Fred cleared"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1: 1 to 5": "Speak to Fred (-480 10 -396)",
+        "6: 6 and 7": "Travel to the end of the Cave of Secrets in Region 1 (you can go out of Willow’s lobby to get there quickly). Right click on the Silvic Instrument, and either fight the mobs that result, or escape, or die.",
+        "8: 8 to 10": "Speak to Fred (-480 10 -396)",
+        "11: 11 to 15": "Speak to David (-525 6 -548)",
+        "16": "Cast out the fishing rock David gave you toward (-1486 76 143) there is a fairly large radius so if you cast from the sidelines you should be able to find a lot of spots that work. Take the Dreamt Power to Fred (-480 10 -396)",
+        "17": "Talk to Fred and agree to help",
+        "18": "Walk through the doorway in Stone Fred, then open the chest in front of you in the room that takes you to and take the item inside",
+        "19: 19 and 20": "Speak to Fred (-480 10 -396)",
+        "21": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Scientists of Steelmeld I",
+      "questNumber": "Quest143",
+      "questDescription": "Quest Start: Professor Bermuda (-540 5 -475)",
+      "questCompleteScores": [
+        13
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Bermuda with an empty inventory, go to her lab, speak to her in her lab",
+        "2": "Complete Puzzle 1, step on pressure plate",
+        "3": "Complete Puzzle 2, step on pressure plate",
+        "4": "Complete Puzzle 3, step on pressure plate",
+        "5": "Complete Puzzle 4, step on pressure plate",
+        "6": "Complete Puzzle 5 step on pressure plate",
+        "7": "Complete Puzzle 6, step on pressure plate",
+        "8": "Complete Puzzle 7, step on pressure plate",
+        "9": "Complete Puzzle 8, step on pressure plate",
+        "10": "Complete Puzzle 9, step on pressure plate",
+        "11": "Complete Puzzle 10 by falling into the water. This step can be done at scores 2 through 11",
+        "12": "Speak to Bermuda in her lab",
+        "13": "Quest Complete. Players may speak to Bermuda in her lab to replay the stages. Doing so will give them the ReplayPortal tag and set their score to 2"
+      }
+    },
+    {
+      "questName": "Pyre and Prejudice",
+      "questNumber": "Quest144",
+      "questDescription": "Quest Start: Agricultural Engineer Nitreia (-639 14 -465)",
+      "questCompleteScores": [
+        18,
+        39
+      ],
+      "questReqs": [],
+      "questValues": {
+        "1: 1 through 4": "Speaking to Nitreia (Dumb)",
+        "5": "Tasked with getting Ash from Scorch Valley",
+        "6": "Got Ash from Scorch Valley (score set when close to chest inside POI)",
+        "7: 7 through 9": "Speaking to Nitreia (Dumb)",
+        "10": "Tasked with getting Ash from Charn",
+        "11": "Got Ash from Charn (score set when close to chest inside POI)",
+        "12: 12 through 14": "Speaking to Nitreia (Dumb)",
+        "15": "Tasked with getting Ash from Twilight Aqueduct",
+        "16": "Got Ash from Twilight Aqueduct (score set when close to chest inside POI)",
+        "17": "Speaking to Nitreia (Dumb)",
+        "18": "Quest Complete (Dumb)",
+        "21: 21 through 24": "Speaking to Nitreia (Smart)",
+        "25": "Tasked with getting Ash from Scorch Valley",
+        "26": "Got Ash from Scorch Valley (score set when close to chest inside POI)",
+        "27: 27 through 29": "Speaking to Nitreia (Smart)",
+        "30": "Tasked with getting Ash from Charn",
+        "31": "Got Ash from Charn (score set when close to chest inside POI)",
+        "32: 32 through 34": "Speaking to Nitreia (Smart)",
+        "35": "Tasked with getting Ash from Twilight Aqueduct",
+        "36": "Got Ash from Twilight Aqueduct (score set when close to chest inside POI)",
+        "37: 37 through 38": "Speaking to Nitreia (Smart)",
+        "39": "Quest Complete (Smart)"
+      }
+    },
+    {
+      "questName": "The Olive Branch",
+      "questNumber": "Quest145",
+      "questDescription": "Quest Start: Bhairavi (-543 6 -528)",
+      "questCompleteScores": [
+        20
+      ],
+      "questReqs": [
+        "Unmasked"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Bhairavi",
+        "2": "Speak to Wexley (-622 25 557)",
+        "3": "Speak to Door (-621 25 560)",
+        "4": "Speak to Wexley",
+        "5": "Speak to Door",
+        "6": "Speak to Wexley",
+        "7": "Speak to Door",
+        "8": "Speak to Wexley",
+        "9": "Speak to Door",
+        "10": "Look at book in front of Wexley, get password, tell door “Branch of the Grand Olive Tree”",
+        "11": "Talk to Hargraves in the door’s room",
+        "12": "Solve the puzzle in the door’s room",
+        "13": "Talk to Hargraves in the door’s room",
+        "14": "Exit the door’s room to be warped to the Congress’s Lobby. Talk to Professor Marin. Sit through a cutscene. Click on the floating player head to progress.",
+        "15": "Enter the Fallen Forum and beat it. Speak to Bhairavi inside the dungeon",
+        "20": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Borrowed Time",
+      "questNumber": "Quest146",
+      "questDescription": "Quest Start: Vargos (-739 83 1337)",
+      "questCompleteScores": [
+        16
+      ],
+      "questReqs": [
+        "A Study in Crimson Part 2",
+        "The Olive Branch",
+        "Here There Be Dragons",
+        "Treasures for the Future",
+        "and Completion of the Celsian Isles Monument"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Nyra, Jones, Ludvic, Torren, and Artol at the party (getting the BorrowedJones/Artol/Ludvic/Nyra/Torren tags), then talk to Bhairavi.",
+        "2": "Talk to Nyra, Jones, Ludvic, Torren, and Artol at the party (getting the BorrowedJones/Artol/Ludvic/Nyra/Torren tags), then talk to Bhairavi.",
+        "3": "Talk to Nyra, Jones, Ludvic, Torren, and Artol at the party (getting the BorrowedJones/Artol/Ludvic/Nyra/Torren tags), then talk to Bhairavi.",
+        "4": "Talk to Nyra, Jones, Ludvic, Torren, and Artol at the party (getting the BorrowedJones/Artol/Ludvic/Nyra/Torren tags), then talk to Bhairavi.",
+        "5": "Go to the King\u0027s Valley and talk to the Crimson King in the Memory Vault.",
+        "6": "Talk to the Crimson King in the instance.",
+        "7": "Talk to the Crimson King in the Veil.",
+        "8": "Fight mobs, survive.",
+        "9": "Talk to the Crimson King in the Monument instance.",
+        "10": "Talk to the Crimson King in the Monument instance.",
+        "11": "Go talk to the Silver Knight in the Memory instance.",
+        "12": "Beat the Silver Knight Daarken boss.",
+        "13": "Guess what? Talk to the Crimson King again.",
+        "14": "Guess what? Talk to the Crimson King again.",
+        "15": "Go back to Vargos in Mistport.",
+        "16": "Quest Complete"
+      }
+    },
+    {
+      "questName": "The Tomb of Time",
+      "questNumber": "Quest147",
+      "questDescription": "Quest Start: Vargos (-739 83 1337)",
+      "questCompleteScores": [
+        10
+      ],
+      "questReqs": [
+        "Borrowed Time"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Travel to the collapsed cavern under the Silver Tower.",
+        "2": "Talk to your allies at the quest location (-2290 178 -1170), go deeper into the caves.",
+        "3": "Speak to your allies in the area to the east of the previous quest area.",
+        "4": "Talk to Pten and Zarek in the Cave the Crimson King sent you to (-1530 10 1700)ish. Leads to quest area at (-1620 210 3060).",
+        "5": "Go deeper into the cave. Investigate the Construct. Quest area to the west of the area in (4).",
+        "6": "Fight the Construct.",
+        "7": "Go through the large door and discover the SKT lobby. (-2060 106 -1450)",
+        "8": "Complete SKT.",
+        "9": "Enter the door in the right side of the SKT Lobby in ISLES. Speak to the knight.",
+        "10": "Quest complete."
+      }
+    },
+    {
+      "questName": "Alrics Legacy",
+      "questNumber": "Quest148",
+      "questDescription": "Quest Start: Listener (-1264 103 536)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [
+        "Unmasked"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Enter Alric’s Rift (-1485 0 146) and solve the puzzle inside",
+        "2: 2 through 4": "Talk to Alric in the Rift (-4203 120 358)",
+        "5": "Talk to Alric in the Rift with a FGWins score of at least 1",
+        "6": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Scientists of Steelmeld II",
+      "questNumber": "Quest149",
+      "questDescription": "Quest Start: Professor Bermuda (-540 5 -475)",
+      "questCompleteScores": [
+        13
+      ],
+      "questReqs": [
+        "Scientists of Steelmeld I"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Bermuda, agree to go to the lab for your second adventure. Talk to Bermuda in the room you are teleported to",
+        "2: 2 through 11": "Go through test chambers. Each chamber increases your score by 1. You can return to the chamber you left off on by reentering the area via Bermuda and then reentering the test chambers",
+        "12": "Talk to Bermuda in the second adventure lab",
+        "13": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Here There Be Dragons",
+      "questNumber": "Quest150",
+      "questDescription": "Quest Start: Izzy (-739 83 1334)",
+      "questCompleteScores": [
+        22,
+        23
+      ],
+      "questReqs": [
+        "The Olive Branch"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Izzy",
+        "2": "Speak to Captain Indigo",
+        "3": "Talk to Izzy in the Mistport Pub Basement",
+        "4": "Speak to Izzy belowdecks of Indigo’s ship.",
+        "5: 5 through 10": "Speak to Levyn in the Mistport Pub Basement",
+        "11": "Speak to Izzy belowdecks of Indigo’s ship.",
+        "12": "Speak to Izzy belowdecks of Indigo’s Ship. Should you leave the area you can warp back here by entering the belowdecks from the ship in Mistport, or the one near the city of bones.",
+        "13": "Find the pointlessly hard to see button at -2065 74 -433 and hit it",
+        "13: 13 part 2 through 17": "Speak to either Levyn or Izzy in the room you get teleported to after hitting the button",
+        "17: 17 part 2": "Step on the plates at the end to get to the lobby",
+        "18: 18 through 20": "Talk to Izzy, give him the three bone carvings you can find within the city of bones.",
+        "21": "Trade with Izzy for the dungeon key",
+        "22": "Quest Complete. Izzy has more dialog after each of your first few clears.",
+        "23": "Quest Completed according to Quest Guide (Mistport)"
+      }
+    },
+    {
+      "questName": "The End Chimes",
+      "questNumber": "Quest151",
+      "questDescription": "Quest Start: Drunken Sailor (-821 93 1367)",
+      "questCompleteScores": [
+        3
+      ],
+      "questReqs": [
+        "None",
+        "The Grasp of Avarice is recommended"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Get a Hollow Chime from the Sunken Ship (-1131 57 1601). Defeat Varcosa within Purple with it in your inventory. Head to world’s end and right-click the Tide’s Chime you get after beating Varcosa",
+        "2": "Speak to Rhygfar (-91 96 3328)",
+        "3": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Depths Charge",
+      "questNumber": "Quest152",
+      "questDescription": "Quest Start: Rhygfar (-91 96 3328 on the Black Mist)",
+      "questCompleteScores": [
+        5
+      ],
+      "questReqs": [
+        "The End Chimes"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Rhygfar",
+        "2": "Sink to the bottom of the sea near the anchor, find a boarded up cave, click for dialog, agree to go in. Solve the puzzle inside.",
+        "3": "Make your way through the “PoI” after the puzzle. Teleport to the next area",
+        "4": "Speak to Captain Verne in Breachpoint (-735 4 -161). They will put a new item on your quest compass, follow it to about (269 8 1503) enter the sparkle area nearby. Speak to Mittens (-1414 108 -1308)",
+        "5": "Quest Complete"
+      }
+    },
+    {
+      "questName": "A GLich in the System",
+      "questNumber": "Quest153",
+      "questDescription": "Quest Start: Ancev (-740 4 -177)",
+      "questCompleteScores": [
+        14
+      ],
+      "questReqs": [
+        "The Gem of Ishnir",
+        "Freds Bizarre Adventure",
+        "Teal 1",
+        "Fred 1"
+      ],
+      "questValues": {
+        "0": "Unstarted, Pick “You know about Doorways?”",
+        "1": "Speak to Ancev",
+        "2: 2 through 4": "Speak to Fred (-717 9 -169)",
+        "5: 5 through 6": "Speak to Sierhaven Smith at Twilight Ruins (553 72 -107)",
+        "7: 7 through 8": "Hit the thing at (554 61 -143) then survive all the waves",
+        "9": "Speak to Sierhaven Smith (553 72 -107)",
+        "10": "Speak to Fred (-717 9 -169)",
+        "11": "Speak to one of the Pharaoh’s Guard in Alnera (395 7 873 or 401 7 873). Then speak to Pharaoh Tyro Syl (399 35 831)",
+        "12": "Head to Molta and the Moltan Treasure Vault (the pass at 150 94 79)",
+        "12: 12 + LichWins \u003e 0": "Speak to Ancev outside the arena (107 73 43). Only this Ancev works.",
+        "13": "Speak to Pharaoh Tyro Syl (399 35 831)",
+        "14": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Treasure for the Future",
+      "questNumber": "Quest154",
+      "questDescription": "Quest Start: Zeroc (-761 81 1344)",
+      "questCompleteScores": [
+        15
+      ],
+      "questReqs": [
+        "Treasure of the Past",
+        "Xenophobia",
+        "Lime 1"
+      ],
+      "questValues": {
+        "0": "Unstarted, Pick “Zulamar said you could tell me more about the remnants of the Viridian Empire.”",
+        "1": "Speak to the Prison Guard in the Mistport Brig (-809 87 1292)",
+        "2: 2 through 3": "Speak to First Mate Jones (-761 81 1344)",
+        "4: 4 through 5": "Enter the room at (-1382 201 2983) then defeat the Ancient Viridian Defender boss",
+        "6: 6 through 7": "Speak to Izumur (-1347 204 3006)",
+        "8": "Speak to Zeroc (-761 81 1344) with the Destroyed Blade of Exaltation",
+        "9": "Go to the Silver Tower POI and step on the pressure plates at (-1930 80 421)",
+        "10": "Collect the two artifacts from Zeroc (-1086 196 3067) then place them on the pedestals at (-1011 197 3090)",
+        "11": "Kill all four waves of mobs in the room (-1011 230 3090)",
+        "12": "Move close enough to Zeroc and Zulamar to trigger the cutscene (-969 196 3068)",
+        "13": "Speak to Zeroc or Zulamar (-1176 196 3071)",
+        "14": "Speak to Zeroc (-761 81 1344)",
+        "15": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Ring Around the Rose Fast",
+      "questNumber": "Track Quest",
+      "questDescription": "Quest Start: Researcher Jennis (-820 96 1332)",
+      "questCompleteScores": [
+        14
+      ],
+      "questReqs": [
+        "Voyage of Discovery"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Continue talking to Jennis",
+        "2": "Continue talking to Jennis, get teleported to the fake teleport hub area at (-645 34 1375)",
+        "3": "Speak to Jennis to return to the teleport area if needed, speak to Keilick at the location",
+        "4": "Continue speaking to Kelick and get \"aported\" to Galos, punch the ghasts on either side of the boat to continue. (Located around -3650 150 2860)ish",
+        "5": "Get further aported to the Hellborn Skylands, defeat enemies around the islands to increase your score. (Located around (Located around -2700 180 2900)ish",
+        "6": "Return to Jennis after defeating enemies around the Hellborn Skylands",
+        "7": "Go speak to Walthan in the King\u0027s Valley in the Lowtide Library.",
+        "8": "Continue talking to Walthan. This step won\u0027t work if you have a ghast root in your inventory. (Don\u0027t ask why).",
+        "9": "Continue talking to Walthan in the Isles, he is up by Jennis at (-820 96 1332).",
+        "10": "Continue talking to Walthan",
+        "11": "Continue talking to Walthan",
+        "12": "Speak to Keilick to continue the quest. After this step your quest score should be set to 14.",
+        "14": "Quest Complete. You can replay this quest by speaking to Jennis in the isles and it\u0027ll reset your Quest Score to 0, as well as giving you the Q200Replay tag."
+      }
+    },
+    {
+      "questName": "Quest201",
+      "questNumber": "His Faithful Servant Shrines Quest",
+      "questDescription": "Quest Start: Cadeus (-746 83 1380)",
+      "questCompleteScores": [
+        5
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Talk to Cadeus, throw Vessel of Boons and Fenian Flower into the pool and drink Harrakfar\u0027s Blessing. Talk to Cadeus again.",
+        "1": "Find any Shrine besides Harrakfar\u0027s Blessing in the Architect\u0027s Ring.",
+        "2": "Bring any Shrine Blessing besides Harrakfar\u0027s to Cadeus.",
+        "3": "Find ALL Shrines in the Architect\u0027s Ring (Minus Curse of the Dark Soul)",
+        "4": "Talk to Cadeus",
+        "5": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Quest202",
+      "questNumber": "Into The Woods",
+      "questDescription": "Quest Start: Dockmaster Hromae (-471 41 -802)",
+      "questCompleteScores": [
+        14
+      ],
+      "questReqs": [
+        "The Tomb of Time OR Ring Around the Rose"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "-1: -1 (Don\u0027t ask why it\u0027s -1)": "Talk to Dockmaster Hromae",
+        "1": "Head to the Customs Office in Galengarde (-374 80 -730)",
+        "2": "Talk to the Chair (-375 80 -732)",
+        "3": "Wake up, talk to Customs Officer Linea, get in debt for 8722 Archos Rings and become a legal citizen of Galengarde.",
+        "4": "Talk to Agent Naomi (Levitation Pad at -309 83 -643)",
+        "5": "Talk to Abell on the outskirts of Galengarde (-257 75 -691)",
+        "6": "Solve the Barn Puzzle next to Abell",
+        "7": "Head back to Agent Naomi (Levitation Pad at -309 83 -643)",
+        "8": "Help Warden Dredsen in the Galengarde Marketplace (-292 85 -659)",
+        "9": "Give Packages to various merchants (Food: -272 82 -656, Arrows: -291 91 -687, Magic Supplies: -280 90 -678, Blocks: -254 84 -676, Weapons: -264 79 -648). Return to Warden Dredsen afterwards.",
+        "10": "Return to Agent Naomi (Levitation Pad at -309 83 -643) and complete the Race.",
+        "11": "Talk to The Primirium by using the now-unlocked levitation pad in Central Galengarde.",
+        "12": "Meet your best friend Quorent in Locum Vernantia (-747 37 -540)",
+        "13": "Report back to The Primirium (-316 183 -672)",
+        "14": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Quest203",
+      "questNumber": "A Charming Proposition",
+      "questDescription": "Quest Start: Miroku (-482 39 -816)",
+      "questCompleteScores": [
+        5
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Miroku",
+        "2": "Pick one of the Charms from Miroku",
+        "3": "Conquer Vibrant Hollow by defeating the Mushroom Archmage and opening the Loot Pinata.",
+        "4": "Return to Miroku",
+        "5": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Quest204",
+      "questNumber": "Of Mushrooms and Magic",
+      "questDescription": "Quest Start: Primirium Verdanne (-317 183 -663)",
+      "questCompleteScores": [
+        16
+      ],
+      "questReqs": [
+        "Into The Woods"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Talk to Verdanne",
+        "2": "Only appears if you choose [I\u0027d like to prepare for a bit.] Talk to Verdanne again.",
+        "3": "Talk to Captain Lauden and receive Carved Rifle \u0026 Mana Crystals.",
+        "4": "Speak to the Voice of the Godspore (by smacking the giant Mushroom!)",
+        "5": "Continue speaking to the Godspore.",
+        "6": "Defeat the Mycelian Guards",
+        "7": "Talk to Elder Lytania (-354 114 -159)",
+        "8": "Continue talking to Lytania",
+        "9": "Learn Lore from the 7 different Lytanias inside the cave up the river.",
+        "10": "Return to Lytania (-354 114 -159)",
+        "11": "Find the Blue Lotus (-2279 157 -231), Fanged Valerian (-325 129 -231) and Divinorum Extract (-330 101 -160) from the Amanita Colony.",
+        "12": "Return to Lytania (-354 114 -159) and get a bit high with Hycenea",
+        "13": "Speak to Lytania",
+        "14": "Speak to Primirium Verdanne (-317 183 -663)",
+        "15": "Quest 99.99% Complete, talk to Verdanne if you somehow have this score.",
+        "16": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Quest205",
+      "questNumber": "Cure For Insomnia Gallery of Fear Quest",
+      "questDescription": "Quest Start: Ephesius (-410 175 -123)",
+      "questCompleteScores": [
+        10
+      ],
+      "questReqs": [],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Continue Speaking to Ephesius",
+        "2": "Find the teachings of Oneiromancy in the Library of New Antium (-496 176 -116) and bring it to Ephesius",
+        "3": "Talk with Ephesius",
+        "4": "Find another study of Oneiromancy inside the basement of the Forsaken Manor (-524 176 188) and bring it back to Ephesius",
+        "5": "Continue speaking to Ephesius",
+        "6": "Repeat step 5",
+        "7": "Find the Dusk Honeycomb on the Architect\u0027s Ring, talk to Merrel for more information (Merrel: -497 182 -115, Dusk Honeycomb: -549 74 -485). Bring the Honeycomb to Ephesius",
+        "8": "Talk with Ephesius",
+        "9": "Perform a ritual at the middle of the lake in The Keep. Should you fail, talk with Ephesius. Instructions in the book.",
+        "10": "Quest Complete (If you have lost the Stone of Dreams, you may purchase it from Ephesius for 16 Archos Rings)",
+        "Post-Quest": "Talk to Markus, Silver Swordsman (-168 101 -356) to unlock the Sanguine Halls map. (NOTE: no scoreboard value association)"
+      }
+    },
+    {
+      "questName": "Quest206",
+      "questNumber": "Wolf in Witchs Clothing Blue Wool Quest",
+      "questDescription": "Quest Start: Primirium Conquort (-311 183 -663)",
+      "questCompleteScores": [
+        11
+      ],
+      "questReqs": [
+        "Of Mushrooms and Magic  The Tomb of Time"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Speak to Elder Lytania (-354 114 -159)",
+        "2": "Continue speaking to Lytania",
+        "3": "Sleep for several hours, wake up, talk to Lytania",
+        "4": "Do the Puzzle (Killing Blue enemies turns the blocks red, killing Red enemies turns the blocks back blue, your objective is to make the entire Sigil red)",
+        "5": "Travel to the Coven Fortress, kill the miniboss at the top and enter the Blue Lobby. Speak to Jehenne in the lobby.",
+        "6": "Enter the Blue Wool Dungeon.",
+        "7": "Return to the Primirium with the Favor of the Wolf from the Loot Room of Coven\u0027s Gambit.",
+        "8": "Calder steals the Blue Wool because he is just that cool",
+        "9": "Speak to the Primirium",
+        "10": "Quest 99.99% Complete, talk to the Primirium if you somehow have this score.",
+        "11": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Quest207",
+      "questNumber": "Unraveled Masqueraders Ruin Quest",
+      "questDescription": "Quest Start: Bhairavi (-279 87 -652)",
+      "questCompleteScores": [
+        6
+      ],
+      "questReqs": [
+        "Witch in Wolfs Clothing"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Find the Masquerader\u0027s Ruin Lobby in Shadowcast Bastille (-95 35 -467). Talk to Bhairavi inside of the lobby.",
+        "2": "Look at the cool cutscene",
+        "3": "Beat Masquerader\u0027s Ruin",
+        "4": "Speak to Bhairavi in the lobby",
+        "5": "Quest 99.99% Complete, talk to Bhairavi if you somehow have this score.",
+        "6": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Quest208",
+      "questNumber": "Praetorer Strike",
+      "questDescription": "Quest Start: The Praetor (-462 192 -65)",
+      "questCompleteScores": [
+        6,
+        7,
+        10
+      ],
+      "questReqs": [
+        "Cure For Insomnia"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Continue discussion with The Praetor.",
+        "2": "Further discussion with The Praetor.",
+        "3": "Go to the Silvic Quarry OR the Doomed Encampment to find the log books by conquerring the POIs.",
+        "4": "Score incremented to from 3 when the player collects the log book from the Silvic Quarry. Return to the Praetor with it to continue.",
+        "5": "Score incremented to from 3 when the player collects the log book from the Doomed Encampment. Return to the Praetor with it to continue.",
+        "6": "Quest complete after completing Silvic Quarry. The player can do the other POI to get a further reward (using scores 8, 9, 10).",
+        "7": "Quest complete after completing Doomed Encampment. The player can do the other POI to get a further reward (using scores 8, 9, 10).",
+        "8": "Score incremented to from 7 after conquering Silvic Quarry post-quest and obtaining the other log book. Return to the Praetor to increment Quest Score to 10.",
+        "9": "Score incremented to from 6 after conquering Silvic Quarry post-quest and obtaining the other log book. Return to the Praetor to increment Quest Score to 10.",
+        "10": "Both halves of the quest complete."
+      }
+    },
+    {
+      "questName": "Quest209",
+      "questNumber": "Scientists of Steelmeld III PORTAL Quest",
+      "questDescription": "Quest Start: Bermuda (-229 46 -626)",
+      "questCompleteScores": [
+        5
+      ],
+      "questReqs": [
+        "Scientists of Steelmeld II"
+      ],
+      "questValues": {
+        "0": "Unstarted",
+        "1": "Go into the cave near Bermuda, kill the G.O.L.E.M. and retrieve the Strange Implement",
+        "2": "Bring Strange Implement to Bermuda",
+        "3": "Go to Elder Lytania (-354 114 -159)",
+        "4": "Complete P.O.R.T.A.L. and return to Bermuda with the IOTA Memory Core",
+        "5": "Quest Complete"
+      }
+    },
+    {
+      "questName": "Quest210",
+      "questNumber": "Keeper Agents",
+      "questDescription": "Quest Start: The High Priest (-418 174 -129)",
+      "questCompleteScores": [
+        10
+      ],
+      "questReqs": [
+        "Praetorer Strike"
+      ],
+      "questValues": {
+        "0": "Quest Unstarted",
+        "1": "Investigate suspects listed by the High Priest: Lanora (-444 183 -50), Gorm (-476 181 -75), Garmon (-384 171 -126), Doctor Cairn (-485 176 -138). Tags are given after the player speaks with each: Quest210Lanora, Quest210Gorm, Quest210Garmon, Quest210Cairn.",
+        "2": "Return to the Priest after investigations. Tags are cleared following this step.",
+        "3": "Ask for help from The Proprietor (-309 168 143) in The Sticks and Stones Tavern.",
+        "4": "Complete the parkour to find the Utopia Synthesis in the Attic above the Proprietor, stand on throne to ascend to the roof, chest is located at (-316 195 145).",
+        "5": "Return to the High Priest with the Utopia Synthesis.",
+        "6": "Calibrate the Utopia Synthesis in the food stores by talking to Finnlay at (-433 180 -100).",
+        "7": "Re-Investigate the suspects with the Utopia Synthesis, only Doctor Cairn is findable at this point in the quest though.",
+        "8": "Continue talking to Doctor Cairn after he transforms into Neo Cairn.",
+        "9": "Return to the High Priest to report back.",
+        "10": "Quest complete (additional reward - replaced Quest Guide with a robot )"
+      }
+    },
+    {
+      "questName": "Quest211",
+      "questNumber": "Mechs Machina Brown Wool Quest",
+      "questDescription": "Quest Start: Machine God\u0027s Herald (-446 181 -86) - Replaces quest guide at Quest210 \u003d 10.",
+      "questCompleteScores": [
+        4,
+        9
+      ],
+      "questReqs": [
+        "Keeper Agents",
+        "Completion of the Blue Wool Dungeon"
+      ],
+      "questValues": {
+        "0": "Quest Unstarted.",
+        "1": "Report to The High Priest and the Praetor.",
+        "2": "Go speak to Aregentina. (Blue Epic charms trader)",
+        "3": "Watch the cutscene accessed through Aregentina.",
+        "4": "Do Arx Spriensis to teleport to the quest area / teleports to Brown Lobby if not in quest / quest complete.",
+        "5": "Speak to the Machine God\u0027s Herald in the quest area.",
+        "6": "Speak to your Neo Allies in the quest area.",
+        "7": "Solve the puzzle on the floor in the quest area.",
+        "8": "Score for a solved puzzle, speak to Neo Gorm in the Brown Wool lobby (only appears under quest conditions).",
+        "9": "Quest complete."
+      }
+    },
+    {
+      "questName": "Quest212",
+      "questNumber": "",
+      "questDescription": "Quest Start:",
+      "questCompleteScores": [],
+      "questReqs": [
+        ""
+      ],
+      "questValues": {
+        "0": ""
+      }
+    },
+    {
+      "questName": "Quest213",
+      "questNumber": "Sporetal Combat Godspore Quest",
+      "questDescription": "Quest Start: Primirium Tybale (-316 182 -672)",
+      "questCompleteScores": [
+        12
+      ],
+      "questReqs": [
+        "Unraveled"
+      ],
+      "questValues": {
+        "0": "Quest Unstarted.",
+        "1": "Speak to Martine (-307 76 -608) at the Arboreal Society building.",
+        "2": "Continue speaking with Martine.",
+        "3": "Find 3 Spyshrooms, located at (-312 87 -668), (-326 144 -652), and (-311 183 -649).",
+        "4": "Return to Martine.",
+        "5": "Speak with Primirium Tybale again.",
+        "6": "Enter the funeral by speaking to the Funeral Organizer at (-304 78 -625), only visible in this Quest from quest scores 1 through 7. Teleports player to (-383 16 -723).",
+        "7": "Quest213\u003d7 signifies that the player is mid-funeral cutscene. Score returns to 6 if the player leaves early.",
+        "8": "Speak with Primirium Tybale in his office.",
+        "9": "Speak with Elder Yuti Abello (-261 58 -440).",
+        "10": "Conquer Chanterelle (-300 100 -391) to retrieve Festering Toxin (x2 in the Pinata chest).",
+        "11": "Enter the Godspore\u0027s Domain and speak with Alle Abello. Overworld entrance at (-365 48 -379), lobby at (-366 13 -392). Speak with Elder Yuti Abello for a fast travel to the overworld entrance at this quest score only.",
+        "12": "Quest complete."
+      }
+    },
+    {
+      "questName": "Quest214",
+      "questNumber": "",
+      "questDescription": "Quest Start:",
+      "questCompleteScores": [],
+      "questReqs": [
+        ""
+      ],
+      "questValues": {
+        "0": ""
       }
     }
   ]
