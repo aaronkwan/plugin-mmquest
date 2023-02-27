@@ -40,4 +40,6 @@ A simple back-end moderation tool for the server Monumenta utilizing Paper and C
 
 11. Finally, support for errors: ![image](https://user-images.githubusercontent.com/123356351/218683651-95b19c56-b6fe-49a9-af39-1eea64d7588d.png) ![image](https://user-images.githubusercontent.com/123356351/219287855-3ed73618-716b-4280-b77c-df3cb2f925e0.png)
 
+# wiki.js-parser companion
 
+This plugin obtains Quest data from a config JSON file. It is intended to be used in conjunction with its companion, the [wiki.js-parser](https://github.com/aaronkwan/wiki.js-parser/blob/main/README.md), which automatically generates JSON files from the Monumenta Quest Wiki.
